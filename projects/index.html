@@ -28,30 +28,30 @@
   <section class="primary">
     <h2 class="label">Major Projects</h2>
     <article class="preview">
-      <h3 id="project-one">Project One: Valid, Responsive-Ready HTML <small>Due Wednesday, September 21, 11:59pm&nbsp;CT</small></h3>
+      <h3 id="project-one">Project One: Onboarding <small>Due Wednesday, February 22, 11:59pm&nbsp;CT</small></h3>
       <section class="description">
         <h4>Project Description</h4>
         <p>
-          For this project, you will create at least three richly structured HTML pages that will
-          form the foundations of a professional web presence for yourself. One of the pages must
-          be your professional resume.
+          You will create a compelling single-page design that features a sign-up process to get new
+          users to join some type of project, such as an email list, a software beta test, or an
+          open-source community. Focus on designing for an effortless, engaging entry of personal
+          information; and friendly, frictionless client-side tests and alerts for malformed,
+          missing, or incomplete information. The goal of this project is to experiment with
+          patterns of interaction that persuade someone to sign up for whatever it is you’re
+          offering, which is not at all an easy task.
         </p>
       </section>
       <section class="goals">
         <h4>Project Goals</h4>
         <ul>
+          <li>Create a touch-friendly, mobile-first responsive web design</li>
+          <li>Experiment with design and interaction patterns for pleasing user experience</li>
           <li>
-            Produce modern standards-compliant HTML pages
+            Design and execute a progressively enhanced page focused on system users and tasks
           </li>
+          <li>Apply design principles including typography, color, and material design</li>
           <li>
-            Write valid, well-formed semantic HTML
-          </li>
-          <li>
-            Effectively comment on and format source code for maximum readability
-          </li>
-          <li>
-            Track the development of a project over time and collaborate with others using version
-            control
+            Engage in agile, iterative web design and development, supported by version control
           </li>
         </ul>
       </section>
@@ -59,16 +59,19 @@
         <h4>Deliverables &amp; Milestones</h4>
         <ol>
           <li>
-            A Basecamp post describing your work in progress. Your post should include the URL to
-            your GitHub repository. Include in the text of your post one or two things you would
-            like feedback on from the instructor and other students in the class (due no later than
-            September 9).
+            A video presentation of your work in progress, hosted on YouTube, Vimeo, or another
+            similar service and posted to Basecamp. Your Basecamp post should include the URL to
+            your GitHub repository. Include in the text of your post one or two <b>specific</b>
+            things you would like feedback or help on from the instructor and other students in the
+            class (due no later than February 8, 11:59pm).
           </li>
           <li>
-            Substantive comments critiquing at least three other student projects. (by September 14,
+            Substantive comments critiquing at least three other student projects. (by Febraury 15,
             11:59pm CT)
           </li>
-          <li>An email to the instructor containing the projects two final deliverables (by September 21, 11:59pm CT):
+          <li>
+            An email to the instructor containing the projects two final deliverables (by February
+            22, 11:59pm CT):
             <ol>
               <li>
                 A 4-5 sentence self-critique memo of your project and your progress in class to this
@@ -85,91 +88,115 @@
         <h4>Requirements</h4>
         <ul>
           <li>
-            All source files in UTF-8/Unicode character encoding with Unix-style line endings (LF),
-            entabbed with spaces (two spaces per tab)
+            Project must be built with only one valid well-formed HTML file, one valid CSS file,
+            and one JavaScript file.
           </li>
           <li>
-            Valid, well-formed semantic HTML5. Projects whose HTML does not validate with the
-            <a href="https://validator.w3.org/">W3C HTML validator</a> will receive a zero-point,
-            failing grade. In the unlikely event that you discover a validation error or warning
-            that is a genuine bug in the validator, you must acknowledge that bug in the memo that
-            accompanies your project, and point to the relevant documentation, such as
-            specifications or an existing reputable bug report, that your source is in fact correct.
-            Get in the habit early of validating your HTML before you commit to Git.
-          </li>
-          <li>
-            Only structural, semantic uses of HTML elements and attributes. <b>Absolutely no</b>
-            table markup, break tags, or any other use of HTML to achieve a particular page layout.
-            (All layout and design will be handled via CSS in the next project. For this project, I
-            urge you not to spend much time at all looking at your pages in a browser. Stick close
-            to your source code and the HTML validator.)
-          </li>
-          <li>
-            A semantically structured navigation area for accessing each of your project’s pages
-            from any other page
-          </li>
-          <li>
-            Include at least two different forms of media (image, audio, video) in your project
-          </li>
-          <li>
-            Semantically structured text-based content to accompany all media elements (image,
-            audio, video)
+            All source files in UTF-8/Unicode character encoding with Unix-style line endings (LF)
           </li>
           <li>
             Organized, readable source that is hand-written and original (no WYSIWYGs or
-            code-generators, no Bootstrap or other off-the-shelf frameworks)
+            code-generators, no Bootstrap or other off-the-shelf HTML or CSS frameworks)
           </li>
           <li>
-            Directory-based URLs with use of the default-served <code>index.html</code> file, so
-            that you can point to, for example, <code>example.com/resume/</code>
+            HTML, CSS, and JavaScript files should both be indented with 2 spaces per level of
+            indent; indent all CSS style rules inside the declaring block, and further indent all
+            rules and blocks inside your media queries
           </li>
-          <li>
-            A Git repository with frequent commits and meaningful commit messages that accurately
-            reflect each set of changes that you make
+          <li>HTML requirements:
+            <ol>
+              <li>
+                Only structural, semantic uses of HTML elements and attributes. <b>Absolutely no</b>
+                table markup, break tags, or any other use of HTML to achieve a particular page
+                layout.
+              </li>
+              <li>
+                At least three HTML form elements, written in conjunction with
+                <code>&lt;label&gt;</code> tags and the <code>for</code> attribute
+              </li>
+              <li>
+                Semantically structured text-based HTML content to accompany any media elements
+                (image, audio, video)
+              </li>
+            </ol>
           </li>
-          <li>
-            Git repository must contain <b>only</b> the files and commits from this project
+          <li>CSS requirements:
+            <ol>
+              <li>
+                CSS file should open with a set of reset styles (such as the minified Eric Meyer
+                resets from class demos)
+              </li>
+              <li>
+                Only relative units (em, rem, vm, %) in your CSS; no px, pt, or other absolute
+                units allowed
+              </li>
+              <li>
+                Use at least two min-width media queries to enhance your mobile-first styles for
+                larger screens
+              </li>
+            </ol>
+          </li>
+          <li>JavaScript requirements:
+            <ol>
+              <li>
+                JavaScript that throws no uncaught errors and is loaded unobtrusively (no JavaScript
+                event attributes in your HTML, in other words; attach events to any elements
+                requiring interaction)
+              </li>
+              <li>
+                JavaScript that uses function closures and other techniques to avoid polluting the
+                global <code>window</code> namespace
+              </li>
+              <li>
+                JavaScript that uses only asynchronous methods and callbacks
+              </li>
+            </ol>
+          </li>
+          <li>Git requirements:
+            <ol>
+              <li>
+                A Git repository with frequent commits and meaningful commit messages that
+                accurately reflect each set of changes that you make
+              </li>
+              <li>
+                Use of the command-line Git program on your computer; no commits made through the
+                GitHub web interface (this isn’t kindergarten)
+              </li>
+              <li>
+                GitHub repository must contain <b>only</b> the files and commits from this project
+              </li>
+            </ol>
           </li>
         </ul>
       </section>
     </article>
     <article>
-      <h3 id="project-two">Project Two: Responsive, Relative-Unit CSS <small>Due Monday, November 14, 11:59pm&nbsp;CT</small></h3>
+      <h3 id="project-two">Project Two: Web-Portal Redesign <small>Due Wednesday, March 22, 11:59pm&nbsp;CT</small></h3>
       <section class="description">
         <h4>Project Description</h4>
         <p>
-          This project builds on Project One, which you will fully style with CSS to provide a basic
-          typographic treatment and responsive design that makes judicious use of media queries and
-          relative units (<code>em</code>/<code>rem</code>, <code>vw</code>, <code>%</code>). You
-          will deploy your pages to a server pointed at by your personal domain name, or a subdomain
-          if you have an existing professional web presence.
+          Some of the very worst designed websites you’ll come across are for banking, credit card
+          payment, HR portals, and other non-optional websites for certain classes of customers or
+          workers. Self-selected teams of 3-4 students will redesign the MyIIT login page, the
+          welcome page/tab, and all necessary pages for achieving a specific student-user task (some
+          examples: generating a class schedule, dropping a class, paying a tuition bill, removing a
+          registration hold, or any other task that you achive through MyIIT as a student). Your
+          redesigned portal should be designed and developed according to sound principles of
+          human-computer interaction, user experience, and emotional design.
         </p>
       </section>
+<!--
       <section class="goals">
         <h4>Project Goals</h4>
         <ul>
+          <li>Create a touch-friendly, mobile-first responsive web design</li>
+          <li>Experiment with design and interaction patterns for pleasing user experience</li>
           <li>
-            Produce modern standards-compliant, mobile-first CSS
+            Design and execute a progressively enhanced page focused on system users and tasks
           </li>
+          <li>Apply design principles including typography, color, and material design</li>
           <li>
-            Organize site typography with a modular scale, and set type on a baseline grid
-          </li>
-          <li>
-            Execute responsive design with flexible media and fluid grids, expressed as percentages
-          </li>
-          <li>
-            Continue to write and revise valid, well-formed semantic HTML
-          </li>
-          <li>
-            Effectively comment on and format source code for maximum readability
-          </li>
-          <li>
-            Track the development of a project over time and collaborate with others using version
-            control
-          </li>
-          <li>
-            Deploy web pages to a public server (can be GitHub pages, set up with your own domain
-            name or subdomain)
+            Engage in agile, iterative web design and development, supported by version control
           </li>
         </ul>
       </section>
@@ -179,24 +206,21 @@
           <li>
             A video presentation of your work in progress, hosted on YouTube, Vimeo, or another
             similar service and posted to Basecamp. Your Basecamp post should include the URL to
-            your GitHub repository, and the live URL to your project if you’ve established one by
-            then. Include in the text of your post one or two <b>specific</b> things you would like
-            feedback or help on from the instructor and other students in the class (due no later
-            than October 12).
+            your GitHub repository. Include in the text of your post one or two <b>specific</b>
+            things you would like feedback or help on from the instructor and other students in the
+            class (due no later than February 8, 11:59pm).
           </li>
           <li>
-            Substantive comments critiquing at least three other student projects. (by October 19,
+            Substantive comments critiquing at least three other student projects. (by Febraury 15,
             11:59pm CT)
           </li>
           <li>
-            An email to the instructor containing the projects final deliverables (by November 14, 11:59pm CT):
+            An email to the instructor containing the projects two final deliverables (by February
+            22, 11:59pm CT):
             <ol>
               <li>
                 A 4-5 sentence self-critique memo of your project and your progress in class to this
-                point (write in the body of the email)
-              </li>
-              <li>
-                The public http:// or https:// link pointing to your live project
+                point
               </li>
               <li>
                 The https:// link to your project’s GitHub repository
@@ -208,72 +232,111 @@
       <section class="requirements">
         <h4>Requirements</h4>
         <ul>
-          <li>Multiple linked valid, well-formed semantic HTML files (Project 1, essentially)</li>
           <li>
-            HTML-based fallbacks for any media elements (image, audio, video) that you include
+            Project must be built with only one valid well-formed HTML file, one valid CSS file,
+            and one JavaScript file.
           </li>
           <li>
-            One single valid, error-free CSS file. <b>Do not</b> create more than one single
-            <code>screen.css</code> file for your project
-          </li>
-          <li>
-            Your HTML and CSS files should both be indented with 2 spaces per level of indent;
-            indent all CSS style rules inside the declaring block, and further indent all rules and
-            blocks inside your media queries
-          </li>
-          <li>
-            Open your CSS file with a set of reset styles (such as the minified Eric Meyer resets
-            from class demos)
-          </li>
-          <li>
-            Use of only relative units (em, rem, vm, %) in your CSS; no px, pt, or other absolute
-            units allowed
-          </li>
-          <li>
-            Use at least two min-width media queries to enhance your mobile-first styles for larger
-            screens
+            All source files in UTF-8/Unicode character encoding with Unix-style line endings (LF)
           </li>
           <li>
             Organized, readable source that is hand-written and original (no WYSIWYGs or
             code-generators, no Bootstrap or other off-the-shelf HTML or CSS frameworks)
           </li>
           <li>
-            A Git repository with frequent commits and meaningful commit messages that accurately
-            reflect each set of changes that you make
+            HTML, CSS, and JavaScript files should both be indented with 2 spaces per level of
+            indent; indent all CSS style rules inside the declaring block, and further indent all
+            rules and blocks inside your media queries
           </li>
-          <li>
-            GitHub repository must contain <b>only</b> the files and commits from this project; you
-            are encouraged to use and further improve your HTML files from Project 1
+          <li>HTML requirements:
+            <ol>
+              <li>
+                Only structural, semantic uses of HTML elements and attributes. <b>Absolutely no</b>
+                table markup, break tags, or any other use of HTML to achieve a particular page
+                layout.
+              </li>
+              <li>
+                At least three HTML form elements, written in conjunction with
+                <code>&lt;label&gt;</code> tags and the <code>for</code> attribute
+              </li>
+              <li>
+                Semantically structured text-based HTML content to accompany any media elements
+                (image, audio, video)
+              </li>
+            </ol>
+          </li>
+          <li>CSS requirements:
+            <ol>
+              <li>
+                CSS file should open with a set of reset styles (such as the minified Eric Meyer
+                resets from class demos)
+              </li>
+              <li>
+                Only relative units (em, rem, vm, %) in your CSS; no px, pt, or other absolute
+                units allowed
+              </li>
+              <li>
+                Use at least two min-width media queries to enhance your mobile-first styles for
+                larger screens
+              </li>
+            </ol>
+          </li>
+          <li>JavaScript requirements:
+            <ol>
+              <li>
+                JavaScript that throws no uncaught errors and is loaded unobtrusively (no JavaScript
+                event attributes in your HTML, in other words; attach events to any elements
+                requiring interaction)
+              </li>
+              <li>
+                JavaScript that uses function closures and other techniques to avoid polluting the
+                global <code>window</code> namespace
+              </li>
+              <li>
+                JavaScript that uses only asynchronous methods and callbacks
+              </li>
+            </ol>
+          <li>Git requirements:
+            <ol>
+              <li>
+                A Git repository with frequent commits and meaningful commit messages that
+                accurately reflect each set of changes that you make
+              </li>
+              <li>
+                Use of the command-line Git program on your computer; no commits made through the
+                GitHub web interface (this isn’t kindergarten)
+              </li>
+              <li>
+                GitHub repository must contain <b>only</b> the files and commits from this project
+              </li>
+            </ol>
           </li>
         </ul>
       </section>
+-->
     </article>
     <article>
-      <h3 id="project-three">Project Three: Progressively Enhanced JavaScript <small>Due Wednesday, December 7, 11:59pm&nbsp;CT</small></h3>
+      <h3 id="project-three">Project Three: User-Tested, Revised Web Portal <small>Due Wednesday, May 3, 11:59pm&nbsp;CT</small></h3>
       <section class="description">
         <h4>Project Description</h4>
         <p>
-          For this project, you will work in teams of two or three students to develop a single-page
-          site that is progressively enhanced with JavaScript and that pulls in data from an open
-          JSON API that does not require authorization.
+          The final project of the course asks you to subject your group’s Web Portal Redesign
+          project to a series of low-stakes user tests, and to make agile, incremental improvements
+          to the Web Portal Redesign project based on what you learn through your user tests.
         </p>
       </section>
+<!--
       <section class="goals">
         <h4>Project Goals</h4>
         <ul>
+          <li>Create a touch-friendly, mobile-first responsive web design</li>
+          <li>Experiment with design and interaction patterns for pleasing user experience</li>
           <li>
-            Understand and execute progressively enhanced, unobtrusive and asynchronous JavaScript
+            Design and execute a progressively enhanced page focused on system users and tasks
           </li>
+          <li>Apply design principles including typography, color, and material design</li>
           <li>
-            Work with an open API, learning how to hit its endpoints in response to user
-            input
-          </li>
-          <li>
-            Process JSON-formatted data and present it in valid well-formed semantic HTML, styled
-            with CSS
-          </li>
-          <li>
-            Learn to work within a team-based workflow on GitHub, via pull requests and code reviews
+            Engage in agile, iterative web design and development, supported by version control
           </li>
         </ul>
       </section>
@@ -281,31 +344,26 @@
         <h4>Deliverables &amp; Milestones</h4>
         <ol>
           <li>
-            A video presentation of your group's work in progress, hosted on YouTube, Vimeo, or another
-            similar service and posted to Basecamp. Your Basecamp post should include a
-            world-viewable URL of your project, plus the URL to your GitHub repository. Include in
-            the text of your post one or two things you would like feedback on from the instructor
-            and other students in the class (due no later than November 28).
+            A video presentation of your work in progress, hosted on YouTube, Vimeo, or another
+            similar service and posted to Basecamp. Your Basecamp post should include the URL to
+            your GitHub repository. Include in the text of your post one or two <b>specific</b>
+            things you would like feedback or help on from the instructor and other students in the
+            class (due no later than February 8, 11:59pm).
           </li>
           <li>
-            Substantive comments critiquing at three other groups’ projects (by December 3)
+            Substantive comments critiquing at least three other student projects. (by Febraury 15,
+            11:59pm CT)
           </li>
           <li>
-            An email to the instructor containing the project’s final deliverables (by December 7,
-            11:59pm CT):
+            An email to the instructor containing the projects two final deliverables (by February
+            22, 11:59pm CT):
             <ol>
               <li>
-                A 5-8 sentence self-critique memo of your project and your progress in class this
-                semester
+                A 4-5 sentence self-critique memo of your project and your progress in class to this
+                point
               </li>
               <li>
-                A 3-4 sentence critique of each of your group members
-              </li>
-              <li>
-                The https:// link to your individual GitHub repository
-              </li>
-              <li>
-                The https:// link to your group’s shared GitHub repository
+                The https:// link to your project’s GitHub repository
               </li>
             </ol>
           </li>
@@ -314,113 +372,88 @@
       <section class="requirements">
         <h4>Requirements</h4>
         <ul>
-          <li>Valid, well-formed HTML5 and standards-compliant CSS and JavaScript</li>
-          <li>One single HTML file, one single CSS file, and one single JS file (not counting any libraries your project requires, such as jQuery)</li>
           <li>
-            JavaScript that throws no uncaught errors and is loaded unobtrusively (no JavaScript
-            event attributes in your HTML, in other words; attach events to any elements requiring
-            interaction)
+            Project must be built with only one valid well-formed HTML file, one valid CSS file,
+            and one JavaScript file.
           </li>
           <li>
-            JavaScript that uses function closures and other techniques to avoid polluting the
-            global <code>window</code> namespace
-          </li>
-          <li>
-            JavaScript that uses asynchronous methods and callbacks for any fetched or
-            user-submitted data
-          </li>
-          <li>
-            The use of at least one HTML <code>&lt;form&gt;</code> element, with appropriate inputs
-            and a submit button (<code>&lt;input type="submit" /&gt;</code>)
-          </li>
-          <li>
-            The use of an open API (one that does not require POST-based authentication or SSL) that
-            returns data in JSON format; search a site such as
-            <a href="http://www.programmableweb.com/category/all/apis">Programmable Web’s directory
-            of APIs</a>
-          </li>
-          <li>
-            HTML-based fallbacks for any media elements (image, audio, video) that you include
+            All source files in UTF-8/Unicode character encoding with Unix-style line endings (LF)
           </li>
           <li>
             Organized, readable source that is hand-written and original (no WYSIWYGs or
-            code-generators, no Bootstrap or other off-the-shelf frameworks)
+            code-generators, no Bootstrap or other off-the-shelf HTML or CSS frameworks)
           </li>
           <li>
-            A personal Git repository with frequent commits and meaningful commit messages that
-            accurately reflect each set of changes that you make
+            HTML, CSS, and JavaScript files should both be indented with 2 spaces per level of
+            indent; indent all CSS style rules inside the declaring block, and further indent all
+            rules and blocks inside your media queries
           </li>
-          <li>
-            A shared Git repository with commits from all group members
-          </li>
-          <li>
-            GitHub repository must contain <b>only</b> the files and commits from this project
-          </li>
-        </ul>
-      </section>
-    </article>
-    <article>
-      <h3 id="project-four">Project Four: Project 1 or 2 Revision <small>Due Wednesday, December 7, 11:59pm&nbsp;CT</small></h3>
-      <section class="description">
-        <h4>Project Description</h4>
-        <p>
-          For this project, you may revise either your Project 1 or Project 2 (not both) in to
-          improve your project and raise your grade. If you submit the complete deliverables (see
-          below) for your revision, you will automatically receive the 10 points for Project 4. Your
-          grade for Project 1 or 2 will improve, based on the requirements for those projects. Your
-          grade will for the project will not be any lower than what you earned originally.
-        </p>
-        <p>
-          Students not opting to revise Project 1 or Project 2 will simply receive the same
-          percentage of 10 points (Project 4's total) as they received on Project 1 or 2 combined.
-        </p>
-        <p>
-          So, for example, imagine that Student X got 10 points on Project 1 (15 possible points)
-          and 18 points on Project 2 (20 possible points), for a total of 80% (28/35). If Student X
-          decides not to revise either project, Student X will receive 8 points for Project 4 (80%
-          of 10 points), leaving her grade for the class unchanged. However, if Student X submits
-          the deliverables for revising Project 1 or 2, she will receive 10 points for Project 4,
-          plus any additional points for the improvements made for the project she revised.
-        </p>
-      </section>
-      <section class="goals">
-        <h4>Project Goals</h4>
-        <ul>
-          <li>
-            Revise a previous project based on instructor feedback and any additional knowledge that
-            you have gained since its original submission
-          </li>
-        </ul>
-      </section>
-      <section class="deliverables">
-        <h4>Deliverables &amp; Milestones</h4>
-        <ol>
-          <li>An email to the instructor containing these two deliverables (by December 7, 11:59pm
-          CT):
+          <li>HTML requirements:
             <ol>
               <li>
-                A 5-8 sentence self-critique memo describing the which project you revised (1 or 2)
-                and the specific revisions that you made to your project, as well as what Stolley as
-                an instructor might have done to help you do better on the project the first time
-                around
+                Only structural, semantic uses of HTML elements and attributes. <b>Absolutely no</b>
+                table markup, break tags, or any other use of HTML to achieve a particular page
+                layout.
               </li>
               <li>
-                The https:// link to your project’s GitHub repository, containing both your original
-                commits and the commits for your project revisions
+                At least three HTML form elements, written in conjunction with
+                <code>&lt;label&gt;</code> tags and the <code>for</code> attribute
+              </li>
+              <li>
+                Semantically structured text-based HTML content to accompany any media elements
+                (image, audio, video)
               </li>
             </ol>
           </li>
-        </ol>
-      </section>
-      <section class="requirements">
-        <h4>Requirements</h4>
-        <ul>
-          <li>
-            The requirements are the same for Project 1 or Project 2, whichever one you choose to
-            revise.
+          <li>CSS requirements:
+            <ol>
+              <li>
+                CSS file should open with a set of reset styles (such as the minified Eric Meyer
+                resets from class demos)
+              </li>
+              <li>
+                Only relative units (em, rem, vm, %) in your CSS; no px, pt, or other absolute
+                units allowed
+              </li>
+              <li>
+                Use at least two min-width media queries to enhance your mobile-first styles for
+                larger screens
+              </li>
+            </ol>
+          </li>
+          <li>JavaScript requirements:
+            <ol>
+              <li>
+                JavaScript that throws no uncaught errors and is loaded unobtrusively (no JavaScript
+                event attributes in your HTML, in other words; attach events to any elements
+                requiring interaction)
+              </li>
+              <li>
+                JavaScript that uses function closures and other techniques to avoid polluting the
+                global <code>window</code> namespace
+              </li>
+              <li>
+                JavaScript that uses only asynchronous methods and callbacks
+              </li>
+            </ol>
+          <li>Git requirements:
+            <ol>
+              <li>
+                A Git repository with frequent commits and meaningful commit messages that
+                accurately reflect each set of changes that you make
+              </li>
+              <li>
+                Use of the command-line Git program on your computer; no commits made through the
+                GitHub web interface (this isn’t kindergarten)
+              </li>
+              <li>
+                GitHub repository must contain <b>only</b> the files and commits from this project
+              </li>
+            </ol>
           </li>
         </ul>
       </section>
+-->
     </article>
   </section>
 </main>
