@@ -52,8 +52,8 @@ html {
   font-family: "Depot New W00", Helvetica, Arial, sans-serif;
   padding: 0.75em; /* 12px @ 16px/em */
   padding-top: 0;
-  background-color: #FFFAD3;
-  color: #333;
+  background-color: #E6ECD2;
+  color: #59453C;
 }
 body {
   font-size: 1.1875em;         /* ~ 19px base font size */
@@ -74,11 +74,11 @@ ins {
 /* Links */
 a {
   text-decoration: none;
-  color: #7E638C;
+  color: #567448;
   border-bottom: 0.05263157895em dotted;
 }
 .preview a {
-  color: #D6496C;
+  color: #D21B5D;
 }
 p {
   padding-bottom: 1.2631578947em;
@@ -132,7 +132,7 @@ h4 {
 
 html {
   /* Border for the nav to sit on */
-  border-top: 2.6875em solid #7DB8A2; /* ~ 43px @ 16px/em | 43 = 12 + 19 + 12 from nav */
+  border-top: 2.6875em solid #59453C; /* ~ 43px @ 16px/em | 43 = 12 + 19 + 12 from nav */
 }
 nav {
   position: absolute;
@@ -164,7 +164,10 @@ small,
   display: block;
 }
 .preview small {
-  color: #AAA;
+  color: #555;
+}
+.assigned small {
+  color: #555;
 }
 .label .button {
   font-size: 0.744018483em; /* ~ 19px @ 25.537px/em */
@@ -187,18 +190,18 @@ nav {
 .nav a {
   display: block;
   text-align: center;
-  color: #333;
+  color: #DDD;
   line-height: 1;
   padding: 0.6315789474em 0.3157894737em; /* ~ 12px 6px @ 19px/em */
-  background-color: #7DB8A2;
+  background-color: #59453C;
   border-bottom: 0;
 }
 
 #calendar #nav-cal a,
 #projects #nav-pro a,
 #policies #nav-pol a {
-  color: #EEE;
-  background-color: #7E638C;
+  color: #333;
+  background-color: #93A341;
 }
 
 /* Calendar */
@@ -237,16 +240,15 @@ nav {
 }
 
 .assigned {
-  background-color: rgba(0,0,0,.1);
+  background-color: #B4A877;
+  background-color: rgba(180,168,119,.75);
+  color: #333;
   margin-top: 0.6315789474em;
   margin-bottom: 1.8947368421em; /* ~ 36px @ 19px/em */
   padding-top: 0.6315789474em;
   padding-right: 1.2631578947em;
 }
-.preview .assigned {
-  background-color: rgba(255,255,255,.5);
-  background-color: rgba(0,0,0,.3);
-}
+
 .assigned h3 {
   padding-left: 1.2631578947em;
   padding-bottom: 0.6315789474em;
@@ -257,8 +259,8 @@ nav {
 
 
 .preview {
-  background-color: #7E638C;
-  color: #EEE;
+  background-color: #93A341;
+  color: #222;
   padding-top: 1.2631578947em;
   margin-right: -0.6315789474em;
   padding-right: 0.6315789474em;
