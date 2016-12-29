@@ -50,7 +50,7 @@ summary {
 
 html {
   font-family: "Depot New W00", Helvetica, Arial, sans-serif;
-  padding: 0.75em 7.3846%; /* 12px @ 16px/em; 24px / 650px*/
+  padding: 0.75em 9.2308%; /* 12px @ 16px/em; 60px / 650px*/
   padding-top: 0;
   background-color: #E6ECD2;
   color: #59453C;
@@ -89,7 +89,6 @@ li {
 ol,
 ul {
   padding-bottom: 1.2631578947em;
-  margin-left: 1.2631578947em;
 }
 ul > li {
   list-style-type: square;
@@ -100,6 +99,7 @@ ol > li {
 li ul,
 li ol {
   padding-top: 0.6315789474em;
+  margin-left: 1.2631578947em;
 }
 /* Avoid over-padding nested lists */
 li ol,
@@ -230,9 +230,15 @@ nav {
 .agenda .meeting {
   padding-left: 0;
 }
-
-.assigned ol {
+.agenda ol {
+  margin-left: 0;
+  padding-left: 0;
+  padding-bottom: 1.2631578947em;
+}
+.assigned ol,
+.assigned ul {
   padding-bottom: 0.6315789474em;
+  margin-left: 0;
 }
 .agenda > ol:first-child {
   padding-top: 0;
@@ -243,14 +249,13 @@ nav {
   background-color: #B4A877;
   background-color: rgba(180,168,119,.75);
   color: #333;
-  margin-top: 0.6315789474em;
+  padding: 1.2631578947em 11.3208% 0.6315789474em 11.3208%;
   margin-bottom: 1.8947368421em; /* ~ 36px @ 19px/em */
-  padding-top: 0.6315789474em;
-  padding-right: 1.2631578947em;
+  margin-right: -11.3208%; /* 60px / 530px (650-120) */
+  margin-left: -11.3208%;
 }
 
 .assigned h3 {
-  padding-left: 1.2631578947em;
   padding-bottom: 0.6315789474em;
 }
 .assigned h4 {
@@ -262,10 +267,10 @@ nav {
   background-color: #93A341;
   color: #222;
   padding-top: 1.2631578947em;
-  margin-right: -8.6643%;
-  padding-right: 8.6643%;
-  margin-left: -8.6643%;
-  padding-left: 8.6643%;
+  margin-right: -11.3208%; /* 60px / 530px (650-120) */
+  padding-right: 11.3208%;
+  margin-left: -11.3208%;
+  padding-left: 11.3208%;
   margin-bottom: 1.2631578947em;
 }
 #calendar .preview {
@@ -299,6 +304,24 @@ nav {
   }
 }
 
+/* @560px */
+
+@media screen and (min-width: 560px) {
+  .agenda > ol {
+    display: flex;
+    justify-content: space-between;
+  }
+  .agenda > ol > li {
+    flex: 0 1 43.5484%;
+    padding: 0;
+  }
+  .assigned {
+    padding: 1.2631578947em 1.8947368421em 0.6315789474em 1.8947368421em;
+    margin-left: -1.8947368421em;
+    margin-right: -1.8947368421em;
+  }
+}
+
 /* @650px */
 
 @media screen and (min-width: 40.625em) {
@@ -325,6 +348,15 @@ nav {
     padding-left: 25%;
     margin-right: -50%; /* 186/372 */
     padding-right: 50%;
+  }
+  .agenda > ol {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 804px) {
+  .agenda > ol {
+    display: flex; /* My life for element/container queries...*/
   }
 }
 
