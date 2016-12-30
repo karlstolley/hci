@@ -307,11 +307,11 @@ nav {
 /* @560px */
 
 @media screen and (min-width: 560px) {
-  .agenda > ol {
+  .flexbox .agenda > ol {
     display: flex;
     justify-content: space-between;
   }
-  .agenda > ol > li {
+  .flexbox .agenda > ol > li {
     flex: 0 1 43.5484%;
     padding: 0;
   }
@@ -320,16 +320,16 @@ nav {
     margin-left: -1.8947368421em;
     margin-right: -1.8947368421em;
   }
-  .link-group {
+  .flexbox .link-group {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
   }
-  #course-resources {
+  .flexbox #course-resources {
     flex: 0 1 100%;
   }
-  #essential-tools,
-  #essential-references {
+  .flexbox #essential-tools,
+  .flexbox #essential-references {
     flex: 0 1 43.5484%;
   }
 }
@@ -367,7 +367,7 @@ nav {
 }
 
 @media screen and (min-width: 804px) {
-  .agenda > ol {
+  .flexbox .agenda > ol {
     display: flex; /* My life for element/container queries...*/
   }
 }
