@@ -320,6 +320,18 @@ nav {
     margin-left: -1.8947368421em;
     margin-right: -1.8947368421em;
   }
+  .link-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  #course-resources {
+    flex: 0 1 100%;
+  }
+  #essential-tools,
+  #essential-references {
+    flex: 0 1 43.5484%;
+  }
 }
 
 /* @650px */
