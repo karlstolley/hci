@@ -245,24 +245,6 @@ nav {
   padding-bottom: 1.2631578947em;
 }
 
-.assigned {
-  background-color: #B4A877;
-  background-color: rgba(180,168,119,.75);
-  color: #333;
-  padding: 1.2631578947em 11.3208% 0.6315789474em 11.3208%;
-  margin-bottom: 1.8947368421em; /* ~ 36px @ 19px/em */
-  margin-right: -11.3208%; /* 60px / 530px (650-120) */
-  margin-left: -11.3208%;
-}
-
-.assigned h3 {
-  padding-bottom: 0.6315789474em;
-}
-.assigned h4 {
-  padding-bottom: 0;
-}
-
-
 .preview {
   background-color: #93A341;
   color: #222;
@@ -273,6 +255,28 @@ nav {
   padding-left: 11.3208%;
   margin-bottom: 1.2631578947em;
 }
+.assigned {
+  background-color: rgba(180,168,119,.75);
+  color: #333;
+  padding: 1.2631578947em 11.3208% 0.6315789474em 11.3208%;
+  margin-bottom: 1.8947368421em; /* ~ 36px @ 19px/em */
+  margin-right: -11.3208%; /* 60px / 530px (650-120) */
+  margin-left: -11.3208%;
+}
+.preview .assigned {
+  background-color: #59453C;
+  color: #EEE;
+}
+.preview .assigned small {
+  color: #AAA;
+}
+.assigned h3 {
+  padding-bottom: 0.6315789474em;
+}
+.assigned h4 {
+  padding-bottom: 0;
+}
+
 #calendar .preview {
   margin-bottom: 0;
 }
