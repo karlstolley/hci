@@ -27,7 +27,7 @@
 <main id="content">
   <section class="primary">
     <h2 class="label">Major Projects</h2>
-    <article class="preview">
+    <article>
       <h3 id="project-one">Project One: Onboarding <small>Due Friday, March 3, 11:59pm&nbsp;CT</small></h3>
       <section class="description">
         <h4>Project Description</h4>
@@ -169,33 +169,45 @@
         </ul>
       </section>
     </article>
-    <article>
-      <h3 id="project-two">Project Two: Web-Portal Redesign <small>Due Wednesday, March 22, 11:59pm&nbsp;CT</small></h3>
+    <article class="preview">
+      <h3 id="project-two">Project Two: Web-Portal Redesign <small>Due Wednesday, April 12, 11:59pm&nbsp;CT</small></h3>
       <section class="description">
         <h4>Project Description</h4>
         <p>
           Some of the very worst designed websites you’ll come across are for banking, credit card
           payment, HR portals, and other non-optional websites for certain classes of customers or
           workers. Self-selected teams of 3-4 students will redesign the MyIIT login page, the
-          welcome page/tab, and all necessary pages for achieving a specific student-user task (some
+          welcome page/tab, and all necessary steps for achieving a specific student-user task (some
           examples: generating a class schedule, dropping a class, paying a tuition bill, removing a
-          registration hold, or any other task that you achive through MyIIT as a student). Your
+          registration hold, or any other task that students complete through MyIIT). Your
           redesigned portal should be designed and developed according to sound principles of
           human-computer interaction, user experience, and emotional design.
         </p>
       </section>
-<!--
       <section class="goals">
         <h4>Project Goals</h4>
         <ul>
-          <li>Create a touch-friendly, mobile-first responsive web design</li>
+          <li>Conduct task analysis and apply the information gained to a user-centered design</li>
+          <li>
+            Build interface modules/elements from a basic design foundation of alignment, contrast,
+            proximity, and repetition
+          </li>
+          <li>
+            Apply design principles including color/material, typography, accessible media, and
+            grid-based design
+          </li>
+          <li>
+            Execute a progressively enhanced, touch-friendly, mobile-first responsive design focused
+            on system users and tasks
+          </li>
+          <li>
+            Write informative text content; catch error conditions and guide users accordingly
+          </li>
           <li>Experiment with design and interaction patterns for pleasing user experience</li>
           <li>
-            Design and execute a progressively enhanced page focused on system users and tasks
+            Engage in agile, iterative web design and development within a team-based workflow on
+            GitHub, via pull requests and code reviews
           </li>
-          <li>Apply design principles including typography, color, and material design</li>
-          <li>
-            Engage in agile, iterative web design and development, supported by version control
           </li>
         </ul>
       </section>
@@ -203,26 +215,36 @@
         <h4>Deliverables &amp; Milestones</h4>
         <ol>
           <li>
-            A video presentation of your work in progress, hosted on YouTube, Vimeo, or another
-            similar service and posted to Basecamp. Your Basecamp post should include the URL to
-            your GitHub repository. Include in the text of your post one or two <b>specific</b>
-            things you would like feedback or help on from the instructor and other students in the
-            class (due no later than February 8, 11:59pm).
+            Whole team: A screen-by-screen task analysis of your chosen MyIIT task (again, e.g.,
+            generating a class schedule, dropping a class, paying a tuition bill, removing a
+            registration hold) posted to Basecamp, with relevant <b>anonymized</b> screen shots
+            (black out any personally identifiable information). Post to Basecamp (due no later than
+            March 22, 11:59pm CT).
           </li>
           <li>
-            Substantive comments critiquing at least three other student projects. (by Febraury 15,
-            11:59pm CT)
+            Whole team: A video presentation of your team’s work in progress, hosted on YouTube,
+            Vimeo, or another similar service and posted to Basecamp. Your Basecamp post should
+            include the URL to your team’s GitHub repository. Include in the text of your post one
+            or two <b>specific</b> things you would like feedback or help on from the instructor and
+            other students in the class (due no later than April 5, 11:59pm CT).
           </li>
           <li>
-            An email to the instructor containing the projects two final deliverables (by February
-            22, 11:59pm CT):
+            Each team member: Substantive comments critiquing at least three other team projects (by
+            April 10, 11:59pm CT).
+          </li>
+          <li>
+            Each team member: an email to the instructor containing the projects three final
+            deliverables (by April 12, 11:59pm CT):
             <ol>
               <li>
                 A 4-5 sentence self-critique memo of your project and your progress in class to this
                 point
               </li>
               <li>
-                The https:// link to your project’s GitHub repository
+                A 2-3 sentence critique for each group member’s work on the project
+              </li>
+              <li>
+                The https:// links to your individual and group GitHub repositories
               </li>
             </ol>
           </li>
@@ -231,10 +253,6 @@
       <section class="requirements">
         <h4>Requirements</h4>
         <ul>
-          <li>
-            Project must be built with only one valid well-formed HTML file, one valid CSS file,
-            and one JavaScript file.
-          </li>
           <li>
             All source files in UTF-8/Unicode character encoding with Unix-style line endings (LF)
           </li>
@@ -255,8 +273,8 @@
                 layout.
               </li>
               <li>
-                At least three HTML form elements, written in conjunction with
-                <code>&lt;label&gt;</code> tags and the <code>for</code> attribute
+                Valid HTML form elements, written in conjunction with <code>&lt;label&gt;</code>
+                tags and the <code>for</code> attribute
               </li>
               <li>
                 Semantically structured text-based HTML content to accompany any media elements
@@ -268,7 +286,7 @@
             <ol>
               <li>
                 CSS file should open with a set of reset styles (such as the minified Eric Meyer
-                resets from class demos)
+                resets from class demos); consider also the Normalize.css styles for forms
               </li>
               <li>
                 Only relative units (em, rem, vm, %) in your CSS; no px, pt, or other absolute
@@ -295,11 +313,25 @@
                 JavaScript that uses only asynchronous methods and callbacks
               </li>
             </ol>
+          </li>
           <li>Git requirements:
             <ol>
               <li>
-                A Git repository with frequent commits and meaningful commit messages that
-                accurately reflect each set of changes that you make
+                Whole team: A shared Git repository with frequent commits and meaningful commit
+                messages that accurately reflect each set of changes that you make
+              </li>
+              <li>
+                Each team member: A personal Git repository with feature branches, frequent commits,
+                and meaningful commit messages that accurately reflect each set of changes that you
+                make, including experimental work that you ultimately might not push upstream
+              </li>
+              <li>
+                All GitHub repositories (team and individual) must contain <b>only</b> the files and
+                commits from this project
+              </li>
+              <li>
+                A Git repository with frequent commits from each team member and meaningful commit
+                messages that accurately reflect each set of changes
               </li>
               <li>
                 Use of the command-line Git program on your computer; no commits made through the
@@ -312,7 +344,6 @@
           </li>
         </ul>
       </section>
--->
     </article>
     <article>
       <h3 id="project-three">Project Three: User-Tested, Revised Web Portal <small>Due Wednesday, May 3, 11:59pm&nbsp;CT</small></h3>
