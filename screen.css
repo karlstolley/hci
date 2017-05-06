@@ -276,6 +276,10 @@ nav {
   padding-bottom: 0;
 }
 
+#current-week:last-child {
+  padding-bottom: 0.6315789474em;
+}
+
 #calendar .preview {
   margin-bottom: 0;
 }
