@@ -1,3 +1,5 @@
+@import url("https://use.typekit.net/zol5yjt.css");
+
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -9,38 +11,6 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* Custom Site Styles */
 
-/*
-  Use the text-size-adjust property
-  to prevent automatically inflating
-  text on orientation changes
-  (portrait to landscape on a phone,
-  for example):
-*/
-
-html {
-  -webkit-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
-  -ie-text-size-adjust: 100%;
-  text-size-adjust: 100%;
-}
-
-/* HTML5 Elements as Blocks; Cribbed from HTML5 Boilerplate */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-main,
-menu,
-nav,
-section,
-summary {
-  display: block;
-}
-
 /* ========== Base Styles ========== */
 
 /*
@@ -48,12 +18,38 @@ summary {
   http://www.modularscale.com/?19&px&1.333&web&text
 */
 
+/*
+  Fall color palette, taken from
+  http://duoparadigms.com/2013/10/11/10-color-palettes-perfect-autumnfall-season/
+
+  Cream: #F7EFD4
+  Taupe: #D4C2B2
+  Butter: #FADDAF
+  Tea Leaf: #C2BC74
+  Pumpkin: #EB712F
+  Chili: #91371B
+  Coffee: #472C25
+
+*/
+
 html {
-  font-family: "Depot New W00", Helvetica, Arial, sans-serif;
+  /*
+    Use the text-size-adjust property
+    to prevent automatically inflating
+    text on orientation changes
+    (portrait to landscape on a phone,
+    for example):
+  */
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ie-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  font-family: ff-karbid-slab-web-pro, "Times New Roman", serif;
   padding: 0.75em 9.2308%; /* 12px @ 16px/em; 60px / 650px*/
   padding-top: 0;
-  background-color: #E6ECD2;
-  color: #59453C;
+  color: #472C25; /* Coffee */
+  background: #F7EFD4; /* Cream */
 }
 body {
   font-size: 1.1875em;         /* ~ 19px base font size */
@@ -71,24 +67,33 @@ i {
 ins {
   text-decoration: none;
 }
+code {
+  font-family: Monaco, Menlo, "Droid Sans Mono", Courier, "Courier New", monospace;
+  font-size: 90%;
+  background-color: rgba(0,0,0,0.1);
+}
+
 /* Links */
 a {
+  color: #91371B; /* Chili */
   text-decoration: none;
-  color: #567448;
   border-bottom: 0.05263157895em dotted;
 }
-.preview a {
-  color: #FFCE0B;
-}
+
+/* Paragraphs and Lists */
 p {
   padding-bottom: 1.2631578947em;
 }
+ol,
+ul,
 li {
   padding-bottom: 0.6315789474em; /* ~ 12px @ 19px/em */
 }
-ol,
-ul {
-  padding-bottom: 1.2631578947em;
+li ul,
+li ol {
+  padding-top: 0.6315789474em; /* ~ 12px @ 19px/em */
+  margin-left: 1.2631578947em;
+  padding-bottom: 0;
 }
 ul > li {
   list-style-type: square;
@@ -96,21 +101,15 @@ ul > li {
 ol > li {
   list-style-type: decimal;
 }
-li ul,
-li ol {
-  padding-top: 0.6315789474em;
-  margin-left: 1.2631578947em;
-}
-/* Avoid over-padding nested lists */
-li ol,
-li ul,
-li:last-child {
-  padding-bottom: 0;
-}
+
+/* Headings */
+
 h1 {
   font-size: 1.7768947368em; /* ~ 33.761px @ 19px/em */
   line-height: 1.0663191256em; /* ~ 36px @ 33.761px/em */
   padding-bottom: 0.3554397085em; /* ~ 12px @ 33.761px/em */
+  font-weight: bold;
+  color: #91371B; /* Chili */
 }
 h2 {
   font-size: 1.3440526316em; /* ~ 25.537px @ 19px/em */
@@ -127,12 +126,27 @@ h4 {
   text-transform: none;
   padding-bottom: 0.6315789474em;
 }
+header,
+footer,
+h2,
+h2 + p,
+#links,
+.assigned,
+.deliverables,
+.requirements {
+  font-family: ff-dax-web-pro, Helvetica, Arial, sans-serif;
+}
+aside h3,
+.assigned h3 {
+  font-family: ff-karbid-slab-web-pro, "Times New Roman", serif;
+}
 
 /* ========== Layout ========== */
 
 html {
   /* Border for the nav to sit on */
-  border-top: 2.6875em solid #93A341; /* ~ 43px @ 16px/em | 43 = 12 + 19 + 12 from nav */
+  border-top: 2.6875em solid #C2BC74; /* Tea Leaf */
+  /* ~ 43px @ 16px/em | 43 = 12 + 19 + 12 from nav */
 }
 nav {
   position: absolute;
@@ -140,11 +154,12 @@ nav {
   top: 0;
   left: 0;
 }
-#links,
 #instructor {
-  margin-top: 2.5263157895em;
+  padding-top: 1.2631578947em;
 }
-
+#links {
+  padding-top: 2.5263157895em;
+}
 /* ========== Modules ========== */
 
 /* Header & Footer */
@@ -159,23 +174,59 @@ small,
 .tagline,
 .fineprint,
 .button {
-  font-weight: 200;
-  color: #777;
+  font-family: ff-dax-web-pro-condensed;
+  color: #555;
   display: block;
 }
-.preview small {
-  color: #555;
+small {
+  color: #EB712F; /* Pumpkin */
+  text-shadow: 0.052em 0.052em 0.211em #D4C2B2; /* Coffee */
 }
-.assigned small {
-  color: #555;
+h1 small {
+  font-weight: normal;
+  color: #C2BC74;
 }
 .label .button {
   font-size: 0.744018483em; /* ~ 19px @ 25.537px/em */
   text-transform: uppercase;
 }
+.is-current .button {
+  padding-top: 1.2631578947em;
+}
+.is-current .button .showing { display: none; }
+
+/* Links */
+.nav a {
+  display: block;
+  text-align: center;
+  line-height: 1;
+  padding: 0.6842105263em 0.1578947368em 0.5789473684em 0.1578947368em; /* 13px 3px 11px 3px */
+  background-color: #C2BC74; /* Tea Leaf */
+  color: #472C25; /* Coffee */
+  border-bottom: 0;
+}
+
+.preview a {
+  color: #EB712F; /* Pumpkin */
+}
+
+.preview .assigned a,
+.preview .deliverables a,
+.preview .requirements a {
+  color: #C2BC74; /* Tea Leaf */
+}
+
+#calendar #nav-cal a,
+#projects #nav-pro a,
+#policies #nav-pol a {
+  background-color: #EB712F; /* Pumpkin */
+  color: #472C25; /* Coffee */
+}
+
+
 /* Navigation */
 nav {
-  font-weight: 200;
+  font-family: ff-dax-web-pro-condensed;
 }
 .nav {
   margin-left: 0;
@@ -186,21 +237,6 @@ nav {
   width: 25%;
   list-style-type: none;
   padding-bottom: 0;
-}
-.nav a {
-  display: block;
-  text-align: center;
-  line-height: 1;
-  padding: 0.6315789474em 0.3157894737em; /* ~ 12px 6px @ 19px/em */
-  color: #333;
-  background-color: #93A341;
-  border-bottom: 0;
-}
-
-#calendar #nav-cal a,
-#projects #nav-pro a,
-#policies #nav-pol a {
-  background-color: #FFCE0B;
 }
 
 /* Calendar */
@@ -213,12 +249,11 @@ nav {
 }
 .week,
 .meeting,
-.assigned > ul > li {
+.calendar-weeks .assigned > ul > li {
   list-style-type: none;
 }
 .meeting {
   padding-left: 1.2631578947em;
-  padding-bottom: 1.2631578947em;
 }
 .meeting ol {
   padding-top: 0;
@@ -232,61 +267,84 @@ nav {
 .agenda ol {
   margin-left: 0;
   padding-left: 0;
-  padding-bottom: 1.2631578947em;
 }
-.assigned ol,
-.assigned ul {
-  padding-bottom: 0.6315789474em;
+.calendar-weeks .assigned ol,
+.calendar-weeks .assigned ul {
   margin-left: 0;
 }
 .agenda > ol:first-child {
   padding-top: 0;
-  padding-bottom: 1.2631578947em;
 }
 
-.preview {
-  background-color: #93A341;
-  color: #222;
+.assigned,
+.week,
+.preview,
+#projects article,
+#grading,
+.deliverables {
   padding-top: 1.2631578947em;
-  margin-right: -11.3208%; /* 60px / 530px (650-120) */
-  padding-right: 11.3208%;
-  margin-left: -11.3208%;
+}
+.preview {
+  padding-bottom: 1.2631578947em;
+  background-color: #472C25; /* Coffee */
+  color: #FADDAF; /* Butter */
+  box-shadow: 0 0 0.316em 0.158em #666;
+}
+.preview,
+.assigned,
+.deliverables,
+.requirements {
   padding-left: 11.3208%;
-  margin-bottom: 1.2631578947em;
+  padding-right: 11.3208%;
+  margin: 0 -11.3208%; /* 60px / 530px (650-120) */
 }
-.assigned {
-  background-color: rgba(180,168,119,.75);
-  color: #333;
-  padding: 1.2631578947em 11.3208% 0.6315789474em 11.3208%;
-  margin-bottom: 1.8947368421em; /* ~ 36px @ 19px/em */
-  margin-right: -11.3208%; /* 60px / 530px (650-120) */
-  margin-left: -11.3208%;
-}
-.preview .assigned {
-  background-color: #59453C;
-  color: #EEE;
-}
-.preview .assigned small {
-  color: #AAA;
+#projects .preview {
+  margin-top: 1.2631578947em;
 }
 .assigned h3 {
   padding-bottom: 0.6315789474em;
 }
-.assigned h4 {
+li .assigned h4 {
   padding-bottom: 0;
 }
 
-#current-week:last-child {
+
+.assigned,
+.deliverables,
+.requirements {
+  background-color: #C2BC74; /* Tea Leaf */
+  color: #222;
+}
+.preview .deliverables,
+.preview .requirements {
+  background-color: #FADDAF; /* Butter */
+}
+.preview .assigned,
+.preview .deliverables,
+.preview .requirements {
+  background-color: #91371B; /* Chili */
+}
+.preview small {
+  color: #C2BC74; /* Tea Leaf */
+  text-shadow: unset;
+}
+.assigned small,
+.preview .deliverables,
+.preview .requirements,
+.preview .assigned,
+.preview .assigned h3,
+.preview .assigned small {
+  color: #FADDAF; /* Butter */
+}
+
+/* Fix for the very last week; corrects spacing after .assigned */
+/* Still needs to be tweaked against margin-bottom on .assigned */
+/* May no longer be necessary after major top/bottom padding refactor */
+/*
+.week:last-child {
   padding-bottom: 0.6315789474em;
 }
-
-#calendar .preview {
-  margin-bottom: 0;
-}
-#calendar .is-next {
-  margin-bottom: 1.2631578947em;
-}
-
+*/
 
 /* ========== State ========== */
 
@@ -304,28 +362,32 @@ nav {
 @media screen and (min-width: 21.5625em) {
   /* Let the nav breathe a bit more */
   nav {
-    font-weight: normal;
-  }
-  .nav a {
-    padding: 0.6315789474em;
+    font-family: inherit;
   }
 }
 
 /* @560px */
 
-@media screen and (min-width: 560px) {
+@media screen and (min-width: 35em) {
   .flexbox .agenda > ol {
     display: flex;
     justify-content: space-between;
   }
-  .flexbox .agenda > ol > li {
+  .meeting {
+    padding-bottom: 1.2631578947em; /* ~ 24px @ 19px/em */
+  }
+  .flexbox .meeting {
     flex: 0 1 43.5484%;
-    padding: 0;
   }
   .assigned {
     padding: 1.2631578947em 1.8947368421em 0.6315789474em 1.8947368421em;
     margin-left: -1.8947368421em;
     margin-right: -1.8947368421em;
+  }
+  #instructor.assigned {
+    padding-left: 11.3208%;
+    padding-right: 11.3208%;
+    margin: 0 -11.3208%; /* 60px / 530px (650-120) */
   }
   .flexbox .link-group {
     display: flex;
@@ -350,13 +412,13 @@ nav {
   header,
   footer,
   .primary,
-  #instructor,
+  #instructor.assigned,
   #links {
     padding-left: 14.28571429%; /* 93/651 */
     padding-right: 28.57142857%; /* 186/651 */
   }
-  .tagline,
-  .fineprint {
+  #instructor.assigned {
+    margin: 0;
   }
   nav {
     width: 57.14285714%;
@@ -368,14 +430,39 @@ nav {
     margin-right: -50%; /* 186/372 */
     padding-right: 50%;
   }
-  .agenda > ol {
+  .flexbox .agenda > ol {
     display: block;
   }
 }
 
-@media screen and (min-width: 804px) {
+/* 830px */
+
+@media screen and (min-width: 51.875em) {
   .flexbox .agenda > ol {
     display: flex; /* My life for element/container queries...*/
   }
+  .week,
+  .preview,
+  #projects article,
+  #grading {
+    padding-top: 2.5263157895em; /* ~ 48px @ 16px/em */
+  }
+  .preview .agenda {
+    padding-top: 1.2631578947em;
+  }
+  .preview,
+  .preview .meeting {
+    padding-bottom: 2.5263157895em; /* ~ 48px @ 16px/em */
+  }
+  #projects .preview {
+    margin-top: 2.5263157895em; /* ~ 48px @ 16px/em */
+  }
+  #instructor.assigned,
+  .assigned,
+  .deliverables {
+    padding-top: 1.8947368421em;
+  }
+  .assigned + .assigned {
+    padding-top: 0;
+  }
 }
-
