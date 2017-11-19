@@ -34,7 +34,11 @@
   var dueDate;
 
   // GitHub URL
-  var github_url = 'https://api.github.com/repos/karlstolley/fwd/commits?per_page=1';
+  var github_url = (function() {
+    var url = $('#github').attr('href'); // grab the href value of the repo link
+    var fragment = url.substring(url.indexOf('.com/') + 5); // find the tail end
+    return 'https://api.github.com/repos/' + fragment + '/commits?per_page=1'; // return the API url
+  })();
 
   // Create a variable to hold HTML for the toggle label
   var toggledLabel;
