@@ -276,6 +276,7 @@ nav {
   padding-top: 0;
 }
 
+article + article,
 .assigned,
 .week,
 .preview,
@@ -441,6 +442,7 @@ li .assigned h4 {
   .flexbox .agenda > ol {
     display: flex; /* My life for element/container queries...*/
   }
+  article + article,
   .week,
   .preview,
   #projects article,
