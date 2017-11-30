@@ -47,7 +47,10 @@ html {
   text-rendering: optimizeLegibility;
   font-family: 'Camphor W04', Verdana, Helvetica, Arial, sans-serif;
 
-/* http://www.modularscale.com/?18&px&1.333 */
+/*
+  Major Third Modular Scale
+  http://www.modularscale.com/?20&px&1.25
+*/
   font-size: 1.125em; /* 18px / 16px */
   line-height: 1.2em; /* 21.6 / 18px */
   background-color: #EEE;
@@ -121,6 +124,10 @@ small {
 
 
 /* Modular Styles */
+
+header a {
+  text-decoration: none;
+}
 
 .nav,
 .agenda,
