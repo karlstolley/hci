@@ -7,7 +7,7 @@
 /* eslint-enable */
 
 (function($) {
-
+  // TODO: Put all of the calendar stuff inside of a function and call it only on the calendar page
   // Get the current time as a Unix timestamp
   var currentDate = new Date();
   var currentTime = Math.round(currentDate.getTime() / 1000);
