@@ -54,7 +54,7 @@
   };
 
   // Utility class for JavaScript detection in CSS
-  $('html').addClass('hasjs');
+  $('html').addClass('js');
 
 
   // Highlight the current and next weeks
