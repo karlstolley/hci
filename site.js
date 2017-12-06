@@ -37,7 +37,7 @@
   var github_url = (function() {
     var url = $('#github').attr('href'); // grab the href value of the repo link
     if (typeof(url) !== "undefined") {
-      var fragment = url.substring(url.indexOf('.com/') + 5); // find the tail end
+      var fragment = url.substring(url.indexOf('.com/') + 5); // find the tail end (5 = .com/)
       return 'https://api.github.com/repos/' + fragment + '/commits?per_page=1'; // return the API url
     }
   })();
