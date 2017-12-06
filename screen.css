@@ -187,10 +187,10 @@ header a {
   animation on page load, when the .js class is added.
 */
 .js .expandable .nav {
-  transition: height, opacity, .3s ease-out;
+  transition: height, opacity, .3s;
 }
 .js .expandable {
-  transition: padding-top .3s ease-out;
+  transition: padding-top .3s;
 }
 
 
