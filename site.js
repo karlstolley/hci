@@ -36,8 +36,10 @@
   // GitHub URL
   var github_url = (function() {
     var url = $('#github').attr('href'); // grab the href value of the repo link
-    var fragment = url.substring(url.indexOf('.com/') + 5); // find the tail end
-    return 'https://api.github.com/repos/' + fragment + '/commits?per_page=1'; // return the API url
+    if (typeof(url) !== "undefined") {
+      var fragment = url.substring(url.indexOf('.com/') + 5); // find the tail end
+      return 'https://api.github.com/repos/' + fragment + '/commits?per_page=1'; // return the API url
+    }
   })();
 
   // Create a variable to hold HTML for the toggle label
@@ -126,25 +128,26 @@
     e.preventDefault(); // default behavior handled above, with window.location.assign
   });
 
-  $.get(github_url, function(data) {
-    var commit = {};
-    data = data[0]; // only need most recent commit
-    // Lowercase commit message's first word to run in `...to XYZ` copy:
-    commit.message = data.commit.message.charAt(0).toLowerCase() + data.commit.message.slice(1);
-    commit.url = data.html_url;
-    commit.stamp = data.commit.author.date;
-    commit.date = new Date(commit.stamp);
-    // Put the date in Day, Month 31 at <Local Time String> format
-    commit.time_string = namedDays[commit.date.getDay()] + ', ' +
-      namedMonths[commit.date.getMonth()] + ' ' +
-      commit.date.getDate() + ' at ' + commit.date.toLocaleTimeString();
+  if(typeof(github_url) !== "undefined") {
+    $.get(github_url, function(data) {
+      var commit = {};
+      data = data[0]; // only need most recent commit
+      // Lowercase commit message's first word to run in `...to XYZ` copy:
+      commit.message = data.commit.message.charAt(0).toLowerCase() + data.commit.message.slice(1);
+      commit.url = data.html_url;
+      commit.stamp = data.commit.author.date;
+      commit.date = new Date(commit.stamp);
+      // Put the date in Day, Month 31 at <Local Time String> format
+      commit.time_string = namedDays[commit.date.getDay()] + ', ' +
+        namedMonths[commit.date.getMonth()] + ' ' +
+        commit.date.getDate() + ' at ' + commit.date.toLocaleTimeString();
 
-    // Append to footer on calendar
-    $('#footer p:first-child').append(
-      ' Course last updated on <time datetime="' + commit.stamp + '">' + commit.time_string +
-      '</time> to <a href="' + commit.url + '">' + commit.message + '</a>.'
-    );
-
-  });
+      // Append to footer on calendar
+      $('#footer p:first-child').append(
+        ' Course last updated on <time datetime="' + commit.stamp + '">' + commit.time_string +
+        '</time> to <a href="' + commit.url + '">' + commit.message + '</a>.'
+      );
+    });
+  }
 
 })(jQuery);
