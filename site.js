@@ -59,6 +59,7 @@
   $('html').addClass('js');
 
   // Navigation menu toggle
+  // TODO: Only load this under smaller-screen conditions
   $('#navigation').prepend('<h2 id="nav-menu"><a tabindex="1" href="#navigation">Menu</a></h2>');
   $('#nav-menu').on('click', function(e) {
     // TODO: Fix edge case to remove tabindex when nav is collapsed
