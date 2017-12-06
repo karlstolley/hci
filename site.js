@@ -56,6 +56,17 @@
   // Utility class for JavaScript detection in CSS
   $('html').addClass('js');
 
+  // Navigation menu toggle
+  $('#navigation').prepend('<h2 id="nav-menu"><a tabindex="1" href="#navigation">Menu</a></h2>');
+  $('#nav-menu').on('click', function(e) {
+    // TODO: Fix edge case to remove tabindex when nav is collapsed
+    $('.nav a').each(function(i,e) {
+      $(e).attr('tabindex', i+1);
+    });
+    $('#header').addClass('expandable').toggleClass('is-expanded');
+    e.preventDefault();
+  });
+
 
   // Highlight the current and next weeks
 
