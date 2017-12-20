@@ -51,18 +51,14 @@ html {
   Major Third Modular Scale
   http://www.modularscale.com/?20&px&1.25
 */
-  font-size: 1.25em; /* 20 / 16px */
-  line-height: 1.2em; /* 21.6 / 18px */
+  font-size: 1.1875em; /* 19 / 16px */
+  line-height: 1.158em; /* 22 / 19px = 1.1578947368 */
   background-color: #EEE;
   color: #222;
 }
 
-body {
-  padding: 2.4em 1.8em;
-}
-
 header {
-  margin-bottom: 1.2em;
+  margin-bottom: 1.158em;
 }
 
 h1,
@@ -82,7 +78,7 @@ h3 {
 }
 
 p {
-  padding-bottom: 1.2em;
+  padding-bottom: 1.158em;
 }
 
 ul {
@@ -92,7 +88,7 @@ ol {
   list-style-type: decimal;
 }
 ol,ul,li {
-  padding-bottom: .6em;
+  padding-bottom: 0.579em; /* 11 / 19 = 0.5789473684 */
 }
 ol ol,
 ol ul,
@@ -194,9 +190,9 @@ header a {
 }
 
 
-
-@media screen and (min-width: 470px) {
+@media screen and (min-width: 111111111470px) { /* Just to avoid this query for now */
   html {
     font-size: 1.25em; /* 20 / 16px */
+    line-height: 1.2em; /* 24 / 20 */
   }
 }
