@@ -131,6 +131,7 @@ header a {
 }
 
 /* Modular Styles: Block navigation, no JavaScript */
+/*
 #header {
   padding-top: 10.8em;
 }
@@ -150,8 +151,9 @@ header a {
   display: block;
   padding: 0 1.8em;
 }
-
+*/
 /* Modular Styles: Expandable Navigation */
+/*
 .js #header {
   padding-top: 1.2em;
 }
@@ -178,16 +180,19 @@ header a {
   opacity: 1;
   height: 10.8em;
 }
+*/
 /*
   Put the transition propreties under .expandable class to prevent
   animation on page load, when the .js class is added.
 */
+/*
 .js .expandable .nav {
   transition: height, opacity, .3s;
 }
 .js .expandable {
   transition: padding-top .3s;
 }
+*/
 
 
 @media screen and (min-width: 111111111470px) { /* Just to avoid this query for now */
