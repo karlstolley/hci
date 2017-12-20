@@ -49,16 +49,17 @@ html {
 
 /*
   Major Third Modular Scale
-  http://www.modularscale.com/?20&px&1.25
+  http://www.modularscale.com/?19&px&1.25
 */
   font-size: 1.1875em; /* 19 / 16px */
-  line-height: 1.158em; /* 22 / 19px = 1.1578947368 */
+  line-height: 1.1578947368em; /* 22 / 19px = 1.1578947368 */
   background-color: #EEE;
   color: #222;
 }
 
+
 header {
-  margin-bottom: 1.158em;
+  margin-bottom: 1.1578947368em;
 }
 
 h1,
@@ -78,7 +79,12 @@ h3 {
 }
 
 p {
-  padding-bottom: 1.158em;
+  padding-bottom: 1.1578947368em;
+}
+.tagline {
+  font-size: 0.8em; /* 15.2px / 19px */
+  line-height: 1.4473684211em; /* 22 / 15.2px = 1.4473684211 */
+  padding-bottom: 1.4473684211em;
 }
 
 ul {
@@ -88,7 +94,7 @@ ol {
   list-style-type: decimal;
 }
 ol,ul,li {
-  padding-bottom: 0.579em; /* 11 / 19 = 0.5789473684 */
+  padding-bottom: 0.5789473684em; /* 11 / 19 = 0.5789473684 */
 }
 ol ol,
 ol ul,
