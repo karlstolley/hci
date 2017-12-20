@@ -1,0 +1,123 @@
+
+
+header {
+  margin-bottom: 1.1578947368em;
+}
+
+
+a {
+  color: #666;
+}
+b,
+strong {
+  font-weight: bold;
+}
+cite,
+em,
+i {
+  font-style: italic;
+}
+code {
+  font-family: Menlo, Monaco, "Droid Sans Mono", Courier, "Courier New", monospace;
+}
+
+small {
+  display: block;
+}
+
+
+/* Modular Styles */
+#header {
+  position: relative;
+  padding-left: 1.1578947368em;
+  padding-right: 1.1578947368em;
+}
+#header small {
+  padding-bottom: 1.1578947368em;
+  padding-bottm: 22px;
+}
+#header a {
+  text-decoration: none;
+}
+.tagline {
+  font-size: 0.8em; /* 15.2px / 19px */
+  line-height: 1.4473684211em; /* 22 / 15.2px = 1.4473684211 */
+  padding-bottom: 1.4473684211em;
+}
+.nav,
+.agenda,
+.assignments {
+  list-style-type: none;
+}
+
+/* Modular Styles: Block navigation, no JavaScript */
+/*
+#header {
+  padding-top: 10.8em;
+}
+#header small {
+  line-height: 2.4em;
+  position: absolute;
+  top: 0;
+  left: 1.8em;
+}
+.nav {
+  position: absolute;
+  top: 3em;
+  left: 0;
+  width: 100%;
+}
+.nav a {
+  display: block;
+  padding: 0 1.8em;
+}
+*/
+/* Modular Styles: Expandable Navigation */
+/*
+.js #header {
+  padding-top: 1.2em;
+}
+.js #header.is-expanded {
+  padding-top: 10.8em;
+}
+.js #nav-menu {
+  text-transform: uppercase;
+  position: absolute;
+  top: 0;
+  right: 1.8em;
+}
+.js #nav-menu a {
+  display: block;
+  line-height: 2.4em;
+}
+.js .nav {
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+  text-align: right;
+}
+.js .is-expanded .nav {
+  opacity: 1;
+  height: 10.8em;
+}
+*/
+/*
+  Put the transition propreties under .expandable class to prevent
+  animation on page load, when the .js class is added.
+*/
+/*
+.js .expandable .nav {
+  transition: height, opacity, .3s;
+}
+.js .expandable {
+  transition: padding-top .3s;
+}
+*/
+
+
+@media screen and (min-width: 111111111470px) { /* Just to avoid this query for now */
+  html {
+    font-size: 1.25em; /* 20 / 16px */
+    line-height: 1.2em; /* 24 / 20 */
+  }
+}
