@@ -43,40 +43,15 @@ h3,
 h4 {
   font-weight: bold;
 }
-#content h2 {
-  font-weight: normal;
-  font-size: 1.9531052632em; /* 37.109 / 19 = 1.9531052632 */
-  line-height: 1.1856961923em; /* 44 / 37.109 = 1.1856961923 */
-  padding-bottom: 0.5928480961em; /* 22 / 37.109 = 0.5928480961 */
-}
 h3 {
   font-size: 1.25em; /* 23.75 / 19 = 1.25 */
   line-height: 1.3894736842em; /* 33 / 23.75 = 1.3894736842 */
 }
-#policies h3,
-#links h3,
-#instructor h3 {
-  padding-bottom: 0.4631578947em; /* 11 / 23.75 = 0.4631578947 */
-}
-h3 + small {
-  padding-bottom: 0.5789473684em; /* 11 / 19 = 0.5789473684 */
-}
-.assigned h3 {
-  font-size: inherit;
-  line-height: inherit;
-}
-.assigned header {
-  padding-bottom: 0.5789473684em; /* 11 / 19 = 0.5789473684 */
-}
-
 h4 {
   font-size: 0.8em; /* 15.2px / 19px */
   line-height: 1.4473684211em; /* 22 / 15.2px = 1.4473684211 */
   padding-bottom: 0.7236842105em; /* 11 / 15.2 = 0.7236842105 */
   text-transform: uppercase;
-}
-h3 + h4 {
-  padding-top: 0;
 }
 
 p {
@@ -143,14 +118,37 @@ code {
 #header a {
   text-decoration: none;
 }
+
+#content h2 {
+  font-weight: normal;
+  font-size: 1.9531052632em; /* 37.109 / 19 = 1.9531052632 */
+  line-height: 1.1856961923em; /* 44 / 37.109 = 1.1856961923 */
+  padding-bottom: 0.5928480961em; /* 22 / 37.109 = 0.5928480961 */
+}
+.assigned h3 {
+  font-size: inherit;
+  line-height: inherit;
+}
+.assigned header {
+  padding-bottom: 0.5789473684em; /* 11 / 19 = 0.5789473684 */
+}
+#policies h3,
+#links h3,
+#instructor h3 {
+  padding-bottom: 0.4631578947em; /* 11 / 23.75 = 0.4631578947 */
+}
+h3 + small {
+  padding-bottom: 0.5789473684em; /* 11 / 19 = 0.5789473684 */
+}
+header small {
+  display: block;
+}
 #header small {
   display: block;
   margin-bottom: 1.1578947368em;
   font-weight: bold;
 }
-header small {
-  display: block;
-}
+
 .tagline,
 .note,
 #footer p {
