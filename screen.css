@@ -95,7 +95,12 @@ ol ol,
 ol ul,
 ul ul,
 ul ol {
+  padding-top: 11px;
   padding-bottom: 0;
+}
+
+li ol {
+  padding-left: 22px;
 }
 
 ol > li::before {
@@ -156,6 +161,12 @@ header small {
 .agenda,
 .assignments {
   list-style-type: none;
+}
+
+.agenda ol,
+.assignments ol {
+  padding-left: 0;
+  padding-top: 0;
 }
 
 .meeting::before {
