@@ -54,6 +54,8 @@ h3 {
   line-height: 33px;
 }
 #policies h3,
+#links h3,
+#instructor h3,
 h3 + small {
   padding-bottom: 11px;
 }
@@ -122,6 +124,8 @@ code {
 }
 #header,
 #content,
+#links,
+#instructor,
 #footer {
   padding-left: 1.7368421053em; /* 33 / 19 (one and a half lead) */
   padding-right: 1.1578947368em;
@@ -141,7 +145,8 @@ header small {
   display: block;
 }
 .tagline,
-.note {
+.note,
+#footer p {
   font-size: 0.8em; /* 15.2px / 19px */
   line-height: 1.4473684211em; /* 22 / 15.2px = 1.4473684211 */
   padding-bottom: 1.4473684211em;
