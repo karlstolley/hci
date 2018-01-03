@@ -52,7 +52,7 @@ ul {
   list-style-type: disc;
 }
 ol {
-  list-style-type: decimal;
+  counter-reset: enum;
 }
 ol, ul, li {
   padding-bottom: 0.5789473684em; /* 11 / 19 = 0.5789473684 */
@@ -63,6 +63,11 @@ ol ul,
 ul ul,
 ul ol {
   padding-bottom: 0;
+}
+
+ol > li::before {
+  counter-increment: enum;
+  content: counter(enum) ". ";
 }
 
 a {
@@ -107,4 +112,8 @@ code {
 .agenda,
 .assignments {
   list-style-type: none;
+}
+
+.meeting::before {
+  content: "";
 }
