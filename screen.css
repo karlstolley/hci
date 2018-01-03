@@ -83,6 +83,8 @@ li ol {
 ol > li::before {
   counter-increment: enum;
   content: counter(enum) ". ";
+  position: absolute;
+  margin-left: -1.1578947368em; /* 22 / 19px = 1.1578947368 */
 }
 
 a {
