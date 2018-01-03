@@ -43,6 +43,37 @@ h3,
 h4 {
   font-weight: bold;
 }
+#content h2 {
+  font-weight: normal;
+  font-size: 37.109px;
+  line-height: 44px;
+  padding-bottom: 22px;
+}
+h3 {
+  font-size: 23.75px;
+  line-height: 33px;
+}
+#policies h3,
+h3 + small {
+  padding-bottom: 11px;
+}
+.assigned h3 {
+  font-size: inherit;
+  line-height: inherit;
+}
+.assigned header {
+  padding-bottom: 11px;
+}
+
+h4 {
+  font-size: 0.8em; /* 15.2px / 19px */
+  line-height: 1.4473684211em; /* 22 / 15.2px = 1.4473684211 */
+  padding-bottom: 0.7236842105em; /* 11 / 15.2 = 0.7236842105 */
+  text-transform: uppercase;
+}
+h3 + h4 {
+  padding-top: 0;
+}
 
 p {
   padding-bottom: 1.1578947368em;
@@ -81,6 +112,8 @@ cite, em, i {
 }
 code {
   font-family: Menlo, Monaco, "Droid Sans Mono", Courier, "Courier New", monospace;
+  font-size: .85em;
+  background: #DDD;
 }
 
 /* Layout Styles */
@@ -102,12 +135,18 @@ code {
 #header small {
   display: block;
   margin-bottom: 1.1578947368em;
+  font-weight: bold;
 }
-.tagline {
+header small {
+  display: block;
+}
+.tagline,
+.note {
   font-size: 0.8em; /* 15.2px / 19px */
   line-height: 1.4473684211em; /* 22 / 15.2px = 1.4473684211 */
   padding-bottom: 1.4473684211em;
 }
+
 .nav,
 .agenda,
 .assignments {
