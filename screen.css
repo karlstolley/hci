@@ -45,26 +45,28 @@ h4 {
 }
 #content h2 {
   font-weight: normal;
-  font-size: 37.109px;
-  line-height: 44px;
-  padding-bottom: 22px;
+  font-size: 1.9531052632em; /* 37.109 / 19 = 1.9531052632 */
+  line-height: 1.1856961923em; /* 44 / 37.109 = 1.1856961923 */
+  padding-bottom: 0.5928480961em; /* 22 / 37.109 = 0.5928480961 */
 }
 h3 {
-  font-size: 23.75px;
-  line-height: 33px;
+  font-size: 1.25em; /* 23.75 / 19 = 1.25 */
+  line-height: 1.3894736842em; /* 33 / 23.75 = 1.3894736842 */
 }
 #policies h3,
 #links h3,
-#instructor h3,
+#instructor h3 {
+  padding-bottom: 0.4631578947em; /* 11 / 23.75 = 0.4631578947 */
+}
 h3 + small {
-  padding-bottom: 11px;
+  padding-bottom: 0.5789473684em; /* 11 / 19 = 0.5789473684 */
 }
 .assigned h3 {
   font-size: inherit;
   line-height: inherit;
 }
 .assigned header {
-  padding-bottom: 11px;
+  padding-bottom: 0.5789473684em; /* 11 / 19 = 0.5789473684 */
 }
 
 h4 {
@@ -95,12 +97,12 @@ ol ol,
 ol ul,
 ul ul,
 ul ol {
-  padding-top: 11px;
+  padding-top: 0.5789473684em; /* 11 / 19 = 0.5789473684 */
   padding-bottom: 0;
 }
 
 li ol {
-  padding-left: 22px;
+  padding-left: 1.1578947368em; /* 22 / 19px = 1.1578947368 */
 }
 
 ol > li::before {
@@ -119,7 +121,7 @@ cite, em, i {
 }
 code {
   font-family: Menlo, Monaco, "Droid Sans Mono", Courier, "Courier New", monospace;
-  font-size: .85em;
+  font-size: 0.85em;
   background: #DDD;
 }
 
