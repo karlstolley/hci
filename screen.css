@@ -111,7 +111,8 @@ header small {
   position: relative;
   padding-top: 3.4736842105em; /* 66 / 19 = 3.4736842105 */
 }
-#header small {
+#header small,
+#nav-menu a {
   display: block;
   position: absolute;
   top: 0;
@@ -119,6 +120,12 @@ header small {
   padding-top: 0.5789473684em; /* 11 / 19 = 0.5789473684 */
   padding-bottom: 0.5789473684em; /* 11 / 19 = 0.5789473684 */
   font-weight: bold;
+}
+#nav-menu a {
+  left: auto;
+  right: 0.5789473684em; /* 11 / 19 = 0.5789473684 */
+  font-weight: normal;
+  text-transform: uppercase;
 }
 #header,
 #content,
