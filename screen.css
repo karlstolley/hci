@@ -260,6 +260,12 @@ h3 + small {
 }
 
 @media screen and (min-width: 600px) {
+  #header {
+    padding-top: 4.6315789474em; /* 88 / 19 = 4.6315789474 */
+  }
+  #content h2 {
+    padding-top: 1.1856961923em; /* 44 / 37.109 = 1.1856961923 */
+  }
   .nav {
     position: absolute;
     right: 0.2894736842em; /* 5.5 / 19 = 0.2894736842em */;
