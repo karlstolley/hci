@@ -196,3 +196,16 @@ h3 + small {
 .meeting::before {
   content: "";
 }
+
+/* State Styles */
+.js .nav {
+  height: 0;
+  padding: 0;
+  overflow-y: hidden;
+}
+.js .expandable .nav {
+  transition: height .2s ease-out;
+}
+.js .is-expanded .nav {
+  height: 11.5789473684em; /* 220 / 19 = 11.5789473684em */
+}
