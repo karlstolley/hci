@@ -224,3 +224,9 @@ h3 + small {
   display: none;
   content: 'menu';
 }
+
+@media screen and (min-width: 640px) {
+  .js body::after {
+    content: '';
+  }
+}

@@ -59,17 +59,39 @@
   $('html').addClass('js');
 
   // Navigation menu toggle
-  // TODO: Only load this under smaller-screen conditions
-  $('#navigation').prepend('<h2 id="nav-menu"><a tabindex="1" href="#navigation">Menu</a></h2>');
-  $('#nav-menu').on('click', function(e) {
-    // TODO: Fix edge case to remove tabindex when nav is collapsed
-    $('.nav a').each(function(i,e) {
-      $(e).attr('tabindex', i+1);
-    });
-    $('#header').addClass('expandable').toggleClass('is-expanded');
-    e.preventDefault();
-  });
 
+  function responsiveFeature(feature) {
+    var size = window
+      .getComputedStyle(document.body, ':after')
+      .getPropertyValue('content');
+    var has_feature = true;
+    if(size.indexOf(feature) === -1) {
+      has_feature = false;
+    }
+    return has_feature;
+  }
+
+  function toggledNav() {
+    if(responsiveFeature('menu')) {
+      if($('#navigation h2').length === 0) {
+        $('#navigation').prepend('<h2 id="nav-menu"><a tabindex="1" href="#navigation">Menu</a></h2>');
+        $('#nav-menu').on('click', function(e) {
+          // TODO: Fix edge case to remove tabindex when nav is collapsed
+          $('.nav a').each(function(i,e) {
+            $(e).attr('tabindex', i+1);
+          });
+          $('#header').addClass('expandable').toggleClass('is-expanded');
+          e.preventDefault();
+        });
+      }
+    } else {
+      $('#nav-menu').remove();
+      $('#header').removeClass('expandable');
+    }
+  }
+
+  $(document).ready(toggledNav());
+  $(window).on('resize', toggledNav);
 
   // Highlight the current and next weeks
 
