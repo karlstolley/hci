@@ -102,9 +102,23 @@ code {
   background: #DDD;
 }
 
+header small {
+  display: block;
+}
+
 /* Layout Styles */
 #header {
   position: relative;
+  padding-top: 3.4736842105em; /* 66 / 19 = 3.4736842105 */
+}
+#header small {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0.5789473684em; /* 11 / 19 = 0.5789473684 */
+  padding-top: 0.5789473684em; /* 11 / 19 = 0.5789473684 */
+  padding-bottom: 0.5789473684em; /* 11 / 19 = 0.5789473684 */
+  font-weight: bold;
 }
 #header,
 #content,
@@ -142,14 +156,8 @@ code {
 h3 + small {
   padding-bottom: 0.5789473684em; /* 11 / 19 = 0.5789473684 */
 }
-header small {
-  display: block;
-}
-#header small {
-  display: block;
-  margin-bottom: 1.1578947368em;
-  font-weight: bold;
-}
+
+
 
 .tagline,
 .note,
@@ -173,4 +181,11 @@ header small {
 
 .meeting::before {
   content: "";
+}
+
+.nav a {
+  display: block;
+  padding: 0.2894736842em; /* 5.5 / 19 = 0.2894736842em */
+  text-align: center;
+  background: #DDD;
 }
