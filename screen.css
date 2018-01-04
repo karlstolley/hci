@@ -123,9 +123,14 @@ header small {
 }
 #nav-menu a {
   left: auto;
-  right: 0.5789473684em; /* 11 / 19 = 0.5789473684 */
+  top: 0.2894736842em; /* 5.5 / 19 = 0.2894736842em */
+  right: 0.2894736842em; /* 5.5 / 19 = 0.2894736842em */
+  padding: 0.2894736842em; /* 5.5 / 19 = 0.2894736842em */
+  border-radius: 0.2894736842em; /* 5.5 / 19 = 0.2894736842em */
   font-weight: normal;
   text-transform: uppercase;
+  background: #AAA;
+  color: #EEE;
 }
 #header,
 #content,
@@ -183,6 +188,7 @@ h3 + small {
 .nav a {
   display: block;
   padding: 0.2894736842em; /* 5.5 / 19 = 0.2894736842em */
+  border-radius: 0.2894736842em;
   text-align: center;
   background: #DDD;
 }
@@ -208,4 +214,13 @@ h3 + small {
 }
 .js .is-expanded .nav {
   height: 11.5789473684em; /* 220 / 19 = 11.5789473684em */
+}
+.js .is-expanded #nav-menu a {
+  background: inherit;
+  color: #666;
+}
+
+.js body::after {
+  display: none;
+  content: 'menu';
 }
