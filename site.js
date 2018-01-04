@@ -48,10 +48,10 @@
   // Helper for toggling label text
   $.fn.toggleLabel = function(current, all) {
     var state = current;
-    if ($('.showing').html()===state.status) {
+    if ($('.toggle').html()===state.action) {
       state = all;
     }
-    $('.showing').html(state.status);
+    //$('.showing').html(state.status);
     $('.toggle').html(state.action).attr('href', state.href);
   };
 
@@ -124,13 +124,13 @@
     // Watch for hashes pointing to #week-XX
     if (window.location.hash.indexOf('week-') === -1) {
 
-      toggledLabel = ' <small class="button"><span class="showing">Current Week</span> <a class="toggle" href="#next-week">Show Future Weeks</a></small>';
+      toggledLabel = ' <small class="button"><a class="toggle" href="#next-week">Show Future Weeks</a></small>';
 
     }
     else {
 
       $('.primary').addClass('is-visible');
-      toggledLabel = ' <small class="button"><span class="showing">All Weeks</span> <a class="toggle" href="#current-week">Show Current Week Only</a></small>';
+      toggledLabel = ' <small class="button"><a class="toggle" href="#current-week">Show Current Week Only</a></small>';
 
     }
 
