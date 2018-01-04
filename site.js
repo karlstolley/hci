@@ -118,7 +118,7 @@
       // If there is another week beyond the current one, show it as well
       futureWeeks[1].attr('id', 'next-week');
       dueDate = new Date(futureWeeks[0].attr('data-expires'));
-      $('#current-week .assigned h3').html('Assigned Work <small>Due ' + namedDays[dueDate.getDay()] + ' ' + namedMonths[dueDate.getMonth()] + ' ' + dueDate.getDate() +'</small>');
+      $('#current-week .assigned h3').after('<small>Due ' + namedDays[dueDate.getDay()] + ' ' + namedMonths[dueDate.getMonth()] + ' ' + dueDate.getDate() +'</small>');
     }
 
     // Watch for hashes pointing to #week-XX
