@@ -165,11 +165,13 @@
         namedMonths[commit.date.getMonth()] + ' ' +
         commit.date.getDate() + ' at ' + commit.date.toLocaleTimeString();
 
-      // Append to footer on calendar
-      $('#footer p:first-child').append(
-        ' Course last updated on <time datetime="' + commit.stamp + '">' + commit.time_string +
-        '</time> to <a href="' + commit.url + '">' + commit.message + '</a>.'
-      );
+        // Append to footer on calendar
+        $('#footer p:first-child').append(
+          ' Course last updated on <time datetime="' + commit.stamp + '">' + commit.time_string +
+          '</time> to <a id="commit-message" href="' + commit.url + '"></a>.'
+        );
+        // Prevent HTML and problem characters from being rendered as HTML
+        $('#commit-message').text(commit.message);
     });
   }
 
