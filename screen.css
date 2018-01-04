@@ -173,6 +173,13 @@ h3 + small {
   list-style-type: none;
 }
 
+.nav a {
+  display: block;
+  padding: 0.2894736842em; /* 5.5 / 19 = 0.2894736842em */
+  text-align: center;
+  background: #DDD;
+}
+
 .agenda ol,
 .assignments ol {
   padding-left: 0;
@@ -181,11 +188,4 @@ h3 + small {
 
 .meeting::before {
   content: "";
-}
-
-.nav a {
-  display: block;
-  padding: 0.2894736842em; /* 5.5 / 19 = 0.2894736842em */
-  text-align: center;
-  background: #DDD;
 }
