@@ -139,6 +139,8 @@ header small {
 #footer {
   padding-left: 1.7368421053em; /* 33 / 19 (one and a half lead) */
   padding-right: 1.1578947368em;
+  padding-left: 11%; /* 33 / 300 = 0.11 */
+  padding-right: 11%; /* 33 / 300 = 0.11 */
 }
 
 
@@ -252,5 +254,63 @@ h3 + small {
   }
   .js body::after {
     content: '';
+  }
+}
+
+@media screen and (min-width: 820px) {
+  #header h1,
+  #header .tagline,
+  #footer p {
+    width: 40%;
+  }
+  #header small {
+    left: 5.5%;
+  }
+  .nav {
+    right: 5.5%;
+  }
+  #projects #content,
+  #policies #content {
+    width: 60%;
+  }
+  .week .agenda {
+    float: left;
+    width: 40%;
+  }
+  .week .assigned {
+    padding: 1.1578947368em; /* 22 / 19px = 1.1578947368 */
+    padding-left: 1.7368421053em; /* 33 / 19 = 1.7368421053 */
+    margin-left: 45%;
+    background-color: #DDD;
+  }
+  .week > header {
+    clear: both;
+    padding-top: 1.1578947368em; /* 22 / 19px = 1.1578947368 */
+    padding-bottom: 1.1578947368em; /* 22 / 19px = 1.1578947368 */
+  }
+  .cssgrid .week {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-areas:
+    "header header"
+    "agenda assigned";
+    grid-row-gap: 1.1578947368em; /* 22 / 19px = 1.1578947368 */
+    grid-column-gap: 1.1578947368em; /* 22 / 19px = 1.1578947368 */
+  }
+  .cssgrid .week > header {
+    grid-area: header;
+    padding-bottom: 0;
+  }
+  .cssgrid .week .agenda {
+    grid-area: agenda;
+    float: none;
+    width: auto;
+  }
+  .meeting {
+    padding-bottom: 1.7368421053em; /* 33 / 19 = 1.7368421053 */
+  }
+  .cssgrid .week .assigned {
+    grid-area: .assigned;
+    margin-left: 0;
   }
 }
