@@ -351,4 +351,25 @@ h3 + small {
     grid-area: .assigned;
     margin-left: 0;
   }
+  .cssgrid #links {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+      "header header header"
+      "course tools references";
+    grid-row-gap: 1.1578947368em; /* 22 / 19px = 1.1578947368 */
+    grid-column-gap: 1.7368421053em; /* 33 / 19px = 1.7368421053 */
+  }
+  .cssgrid header {
+    grid-area: header;
+  }
+  .cssgrid #course-resources {
+    grid-area: course;
+  }
+  .cssgrid #essential-tools {
+    grid-area: tools;
+  }
+  .cssgrid #essential-references {
+    grid-area: references;
+  }
 }
