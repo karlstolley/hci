@@ -102,6 +102,10 @@ code {
   background: #DDD;
 }
 
+header {
+  padding-bottom: 1.1578947368em; /* 22 / 19px = 1.1578947368 */
+}
+
 header small {
   display: block;
 }
@@ -163,9 +167,6 @@ header small {
 .assigned h3 {
   font-size: inherit;
   line-height: inherit;
-}
-.assigned header {
-  padding-bottom: 0.5789473684em; /* 11 / 19 = 0.5789473684 */
 }
 #policies h3,
 #links h3,
@@ -308,7 +309,8 @@ h3 + small {
     right: 5.5%;
   }
   #projects #content,
-  #policies #content {
+  #policies #content,
+  #instructor {
     width: 60%;
   }
   .week .agenda {
@@ -332,12 +334,10 @@ h3 + small {
     grid-template-areas:
     "header header"
     "agenda assigned";
-    grid-row-gap: 1.1578947368em; /* 22 / 19px = 1.1578947368 */
     grid-column-gap: 1.1578947368em; /* 22 / 19px = 1.1578947368 */
   }
   .cssgrid .week > header {
     grid-area: header;
-    padding-bottom: 0;
   }
   .cssgrid .week .agenda {
     grid-area: agenda;
@@ -357,7 +357,6 @@ h3 + small {
     grid-template-areas:
       "header header header"
       "course tools references";
-    grid-row-gap: 1.1578947368em; /* 22 / 19px = 1.1578947368 */
     grid-column-gap: 1.7368421053em; /* 33 / 19px = 1.7368421053 */
   }
   .cssgrid header {
