@@ -136,6 +136,17 @@ header small {
   background: #b20064;
   color: #d9e3de;
 }
+.week h4 a {
+  display: inline-block;
+  padding: 0.1809210526em 0.3618421053em; /* 5.5 / 15.2 = 0.2894736842em; 2.75 / 15.2 = 0.1809210526 */
+  margin-left: 0.3618421053em;
+  border-radius: 0.3618421053em; /* 5.5 / 15.2 = 0.2894736842em */
+  font-weight: normal;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #b20064;
+  color: #d9e3de;
+}
 
 #header,
 #content,
