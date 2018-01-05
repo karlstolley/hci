@@ -142,13 +142,12 @@ header small {
 #links,
 #instructor,
 #footer {
-  padding-left: 1.7368421053em; /* 33 / 19 (one and a half lead) */
-  padding-right: 1.1578947368em;
   padding-left: 11%; /* 33 / 300 = 0.11 */
   padding-right: 11%; /* 33 / 300 = 0.11 */
 }
 #links,
-#instructor {
+#instructor,
+#footer {
   padding-top: 2.3157894737em; /* 44 / 19 = 2.3157894737 */
 }
 
@@ -303,10 +302,10 @@ h3 + small {
     width: 40%;
   }
   #header small {
-    left: 5.5%;
+    left: 11%;
   }
   .nav {
-    right: 5.5%;
+    right: 11%; /* TODO: Align with RH column on calendar */
   }
   #projects #content,
   #policies #content,
