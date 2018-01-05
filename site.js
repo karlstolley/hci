@@ -151,6 +151,9 @@
     e.preventDefault(); // default behavior handled above, with window.location.assign
   });
 
+  // Insert upcoming deadlines at the end of current week's assigned work
+  $('#current-week .assigned').append($('#upcoming-deadlines'));
+
   if(typeof(github_url) !== "undefined") {
     $.get(github_url, function(data) {
       var commit = {};
