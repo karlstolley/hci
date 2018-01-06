@@ -252,10 +252,11 @@ h3 + small {
   margin-top: 1.1578947368em; /* 22 / 19px = 1.1578947368 */
   padding: 0.2894736842em; /* 5.5 / 19 = 0.2894736842em */
   border-radius: 0.2894736842em; /* 5.5 / 19 = 0.2894736842em */
+  width: 50%;
   text-decoration: none;
   text-align: center;
-  color: #b20064;
-  background: #2c2429;
+  background: #b20064;
+  color: #d9e3de;
 }
 
 /* State Styles */
