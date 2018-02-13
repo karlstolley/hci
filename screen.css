@@ -61,6 +61,10 @@ p {
 ul {
   list-style-type: circle;
 }
+li ul {
+  list-style-type: square;
+}
+
 ol {
   counter-reset: enum;
 }
@@ -76,7 +80,8 @@ ul ol {
   padding-bottom: 0;
 }
 
-li ol {
+li ol,
+li ul {
   padding-left: 1.1578947368em; /* 22 / 19px = 1.1578947368 */
 }
 
@@ -85,6 +90,7 @@ ol > li::before {
   content: counter(enum) ". ";
   position: absolute;
   margin-left: -1.1578947368em; /* 22 / 19px = 1.1578947368 */
+  font-weight: bold;
 }
 
 a {
