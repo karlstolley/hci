@@ -182,20 +182,34 @@
     </article>
     <article id="project-two">
       <header>
-        <h3>Project Two: Web-Portal Redesign</h3>
+        <h3>Project Two: Booking System Design</h3>
         <small>Due Thursday, April 5, 11:59pm&nbsp;CT</small>
       </header>
       <section class="description">
         <h4>Project Description</h4>
         <p>
-          Some of the very worst designed websites you’ll come across are for banking, credit card
-          payment, HR portals, and other non-optional websites for certain classes of customers or
-          workers. Self-selected teams of 3-4 students will redesign a bad portal site. Your
-          redesigned portal should be designed and developed according to sound principles of
-          human-computer interaction, user experience, and emotional design.
+          For this project, you will work in self-selected teams of three or four students to design
+          a booking system for purchasing tickets for travel, movies, concerts, or sporting events,
+          or a similar system for ordering food online.
+        </p>
+        <p>
+          In all of those types of systems, users must be able to book a purchase for a certain
+          number of people, for a certain event taking place at a particular time. There are then
+          also the details like the destination for a flight, bus, or train; or the specific movie
+          or concert. And finally there is the problem of reserving a specific seat or a block of
+          seats: seating charts to clarify what seats someone is purchasing, or a menu displaying
+          food items available for order. You must also design a simple form for accepting payment
+          by credit card.
+        </p>
+        <p>
+          Your design, which you will test with actual users for Project Three, must accomodate all
+          of those kinds of choices and others that you identify. You should begin by conducting a
+          competitive task-analysis of other, similar booking sites. Take extensive notes of the
+          patterns that you see. Which work? Which could be improved upon? And what entirely new
+          ideas do you and your team have for streamlining the user experience of these types of
+          multifacted tasks?
         </p>
       </section>
-<!--
       <section class="goals">
         <h4>Project Goals</h4>
         <ul>
@@ -218,7 +232,8 @@
           <li>Experiment with design and interaction patterns for pleasing user experience</li>
           <li>
             Engage in agile, iterative web design and development within a team-based workflow on
-            GitHub, via pull requests and code reviews
+            GitHub, via pull requests and code reviews, coordinated over a project-management app
+            like Basecamp, Slack, or Trello
           </li>
           </li>
         </ul>
@@ -227,26 +242,47 @@
         <h4>Deliverables &amp; Milestones</h4>
         <ol>
           <li>
-            Whole team: A screen-by-screen task analysis of your chosen MyIIT task (again, e.g.,
-            generating a class schedule, dropping a class, paying a tuition bill, removing a
-            registration hold) posted to Basecamp, with relevant <b>anonymized</b> screen shots
-            (black out any personally identifiable information). Post to Basecamp (due no later than
-            March 22, 11:59pm CT).
+            Whole team: A project proposal describing:
+            <ul>
+              <li>
+                Who the members are on your team (organize yourselves on Basecamp starting 2/19)
+              </li>
+              <li>What kind of booking system you will build</li>
+              <li>
+                What the URL is to your shared team GitHub repository, and the URLs to each team
+                member’s individual fork of the shared repository
+              </li>
+              <li>
+                Which project-management/communication app (e.g., Basecamp, Slack, Trello, or
+                something else) that you will use to communicate with one another to coordinate your
+                work and avoid disasters on GitHub and elsewhere.
+              </li>
+            </ul>
+            The proposal should be collaboratively written as a Markdown file in your shared GitHub
+            repository (due no later than Thursday, February 22). Designate one member of the group
+            to email the URL to the repository to the instructor.
+          </li>
+          <li>
+            Whole team: A screen-by-screen task analysis of existing sites that provide similar
+            functionality to your chosen task (again, e.g., booking a flight, purchasing
+            reserved-seating tickets to a concert, ordering food for delivery at a specific time).
+            Post to Basecamp (due no later than Sunday, March 4, 11:59pm CT).
           </li>
           <li>
             Whole team: A video presentation of your team’s work in progress, hosted on YouTube,
             Vimeo, or another similar service and posted to Basecamp. Your Basecamp post should
-            include the URL to your team’s GitHub repository. Include in the text of your post one
-            or two <b>specific</b> things you would like feedback or help on from the instructor and
-            other students in the class (due no later than April 10, 11:59pm CT).
+            include the URL to your team’s GitHub repository and a URL to the live site (GitHub
+            Pages is fine). Include in the text of your post one or two <b>specific</b> things you
+            would like feedback or help on from the instructor and other students in the class (due
+            no later than Thursday, March 22, 11:59pm CT).
           </li>
           <li>
             Each team member: Substantive comments critiquing at least three other team projects (by
-            April 14, 11:59pm CT).
+            Thursday, March 29, 11:59pm CT).
           </li>
           <li>
             Each team member: an email to the instructor containing the project’s three final
-            deliverables (by April 17, 11:59pm CT):
+            deliverables (by April 5, 11:59pm CT):
             <ol>
               <li>
                 A 4-5 sentence self-critique memo of your project and your progress in class to this
@@ -324,6 +360,14 @@
               <li>
                 JavaScript that uses only asynchronous methods and callbacks
               </li>
+              <li>
+                Use of JavaScript objects or JSON to prototype interaction with a server to retrieve
+                data, such as indicating seat/show/menu availability
+              </li>
+              <li>
+                Use of cookies to maintain simple information/state between pages (e.g., the number
+                of tickets someone wishes to purchase)
+              </li>
             </ol>
           </li>
           <li>Git requirements:
@@ -336,7 +380,8 @@
                 Each team member: An individual Git repository with feature branches, frequent
                 commits, and meaningful commit messages that accurately reflect each set of changes
                 that you make, including experimental work that you ultimately might not push
-                upstream to the shared group repository
+                upstream to the shared group repository. <b>The team GitHub repository must
+                include frequent commits from every team member for the duration of the project.</b>
               </li>
               <li>
                 All GitHub repositories (team and individual) must contain <b>only</b> the files and
