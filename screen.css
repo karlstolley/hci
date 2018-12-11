@@ -94,7 +94,7 @@ ol > li::before {
 }
 
 a {
-  color: #A00;
+  color: #248ab6;
 }
 b, strong {
   font-weight: bold;
@@ -212,6 +212,13 @@ h3 + small {
   background: #222;
   color: #EEE;
 }
+#this-week a {
+  color: #3999c4;
+}
+#this-week h4 a {
+  background: #3999c4;
+  color: #222;
+}
 .assigned {
   background-color: rgba(0,0,0,0.1);
 }
@@ -234,7 +241,7 @@ h3 + small {
   display: block;
   padding: 0.3157894737em; /* 6 / 19 = 0.3157894737em */
   border-radius: 0.3157894737em;
-  border: 1px solid #A00;
+  border: 1px solid #248ab6;
   text-align: center;
 }
 
@@ -242,7 +249,7 @@ h3 + small {
 #policies #nav-pol a,
 #projects #nav-pro a,
 .week h4 a {
-  background: #A00;
+  background: #248ab6;
   color: #EEE;
 }
 
