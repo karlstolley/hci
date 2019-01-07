@@ -1,5 +1,5 @@
 {
-    // Stolley House Config, v. 1.1.2, 20180910
+    // Stolley House Config, v. 1.2.0, 20190107
 
     // names of npm modules to load into htmllint
     "plugins": [],
@@ -24,7 +24,7 @@
     "label-req-for": true, // All <label> tags must have a for attribute
     "line-end-style": "lf", // Unix-style LF line-endings
     "spec-char-escape": true, // XML special characters (<,>,&,etc.) must be escaped
-    "tag-bans": ["style", "iframe", "br", "hr"], // no on-pages styles (for now), no iframes, breaks, horizontal rules
+    "tag-bans": ["br", "button", "div", "hr", "iframe", "style"],
     "tag-close": true, // tags that open must close
     "tag-name-lowercase": true, // only lowercase for tag names
     "tag-name-match": true, // tag names must match, in both name and case
