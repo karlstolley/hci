@@ -38,18 +38,18 @@
     <article id="project-one">
       <header>
         <h3>Project One: Onboarding</h3>
-        <small>Due February 18, 11:59pm&nbsp;CT</small>
+        <small>Due February 28, 11:59pm&nbsp;CT</small>
       </header>
       <section class="description">
         <h4>Project Description</h4>
         <p>
           You will create a compelling single-page site that features a sign-up process to get new
           users to join some type of project, such as an email list, a software beta test, or an
-          open-source community. Focus on designing for an effortless, engaging entry of personal
+          open-source community. Focus on designing for effortless, engaging entry of personal
           information; and friendly, frictionless client-side tests and alerts for malformed,
           missing, or incomplete information. The goal of this project is to experiment with
           patterns of interaction that persuade someone to sign up for whatever it is you’re
-          offering, which is not at all an easy task.
+          offering, which is not an easy task.
         </p>
       </section>
       <section class="goals">
@@ -80,15 +80,15 @@
             your GitHub repository, and representative sketches that you made in designing your
             interface. Include in the text of your post one or two <b>specific</b> things you would
             like feedback or help on from the instructor and other students in the class (due no
-            later than February 1, 11:59pm).
+            later than February 7, 11:59pm).
           </li>
           <li>
-            Substantive comments critiquing at least three other student projects (by Febraury 11,
+            Substantive comments critiquing at least three other student projects (by Febraury 14,
             11:59pm CT).
           </li>
           <li>
             An email to the instructor containing the projects two final deliverables (by February
-            18, 11:59pm CT):
+            28, 11:59pm CT):
             <ol>
               <li>
                 A 4-5 sentence self-critique memo of your project and your progress in class to this
@@ -106,77 +106,122 @@
         <h4>Requirements</h4>
         <ul>
           <li>
-            Project must be built with only one valid well-formed HTML file, one valid CSS file,
-            and one JavaScript file.
+            Write only one valid well-formed HTML file, one valid CSS file, and one JavaScript file.
           </li>
           <li>
-            All source files in UTF-8/Unicode character encoding with Unix-style line endings (LF),
-            entabbed with spaces (two spaces per tab)
+            Encode source files in UTF-8/Unicode with Unix-style line endings (LF); entab with
+            spaces
           </li>
           <li>
-            Your HTML, CSS, and JavaScript files should all be indented with 2 spaces per level of
-            indent; indent all CSS style rules inside the declaring block, and further indent all
-            rules and blocks inside your media queries. Indent inside of all blocks in JavaScript.
+            Indent HTML, CSS, and JavaScript files with 2 spaces per level of indent. Indent HTML
+            when nesting tags. Indent all CSS style rules inside the declaring block, and further
+            indent all rules and blocks inside your media queries. Indent inside of all blocks in
+            JavaScript.
           </li>
           <li>
-            Organized, readable source that is hand-written and original (no WYSIWYGs or
+            Present organized, readable source that is hand-written and original (no WYSIWYGs or
             code-generators, no Bootstrap or other off-the-shelf frameworks). A JavaScript framework
             for basic DOM manipulation is permissible, such as jQuery or a lightweight alternative
             such as Umbrella JS or Shoestring.
           </li>
           <li>
-            Make use of both the validators and linters to ensure the quality of HTML, CSS, and
-            JavaScript
+            Run all code through validators and linters to ensure the quality of your HTML, CSS,
+            and JavaScript
           </li>
-          <li>
-            Semantically structured text-based content to accompany all media elements (image,
-            audio, video). Make use of the <code>&lt;figure&gt;</code> and
-            <code>&lt;figcaption&gt;</code> tags
+          <li>HTML requirements:
+            <ol>
+              <li>
+                Use the default-served <code>index.html</code> file name in directory-based URLs, so
+                that you can point to, for example, <code>example.com/</code>
+              </li>
+              <li>
+                Write well-formed, valid semantic HTML. Projects whose HTML does not validate with
+                the <a href="https://validator.w3.org/">W3C HTML validator</a> will receive a
+                zero-point, failing grade. In the unlikely event that you discover a validation
+                error or warning that is a genuine bug in the validator, you must acknowledge that
+                bug in the memo that accompanies your project, and point to the relevant
+                documentation, such as specifications or an existing reputable bug report, that your
+                source is in fact correct. Get in the habit of validating and linting your HTML
+                before you commit to Git.
+              </li>
+              <li>
+                Use only structural, semantic HTML elements and attributes. <b>Absolutely no</b>
+                table markup, break tags, or any other use of HTML to achieve a particular page
+                layout. All layout and design should be handled via CSS.
+              </li>
+              <li>
+                Write valid HTML form elements in conjunction with <code>&lt;label&gt;</code> tags
+                and the <code>for</code> attribute
+              </li>
+              <li>
+                Present semantically structured text-based content to accompany all media elements
+                (image, audio, video). Make use of the <code>&lt;figure&gt;</code> and
+                <code>&lt;figcaption&gt;</code> tags
+              </li>
+            </ol>
           </li>
-          <li>
-            One single valid, linted, error-free CSS file called <code>screen.css</code>. <b>Do
-            not</b> create more than one CSS file for your project; all styles should be in the same
-            file. Use an <code>id</code> value on <code>&lt;html&gt;</code> or
-            <code>&lt;body&gt;</code> and leverage that in a CSS descendant selector if you need a
-            special style on a particular page.
+          <li>CSS requirements:
+            <ol>
+              <li>
+                Write one single valid, linted, error-free CSS file called <code>screen.css</code>.
+                <b>Do not</b> create more than one CSS file for your project; all styles should be
+                in the same file.
+              </li>
+              <li>
+                Open <code>screen.css</code> with <a href="https://gist.github.com/profstolley/b1f851e061f98fcbc0e41d39adc32847#file-_reset-min-css">the minified Eric Meyer reset CSS</a>
+                styles
+              </li>
+              <li>
+                Use only relative units (<code>em</code>, <code>rem</code>, <code>vw</code>,
+                <code>%</code>) in your CSS; no <code>px</code>, <code>pt</code>, or other absolute
+                units are permitted in your CSS
+              </li>
+              <li>
+                Use only <code>min-width</code> media queries to enhance your mobile-first
+                styles for larger screens
+              </li>
+            </ol>
           </li>
-          <li>
-            The opening lines of your <code>screen.css</code> file should be the Eric Meyer reset
-            CSS styles
+          <li>JavaScript requirements:
+            <ol>
+              <li>
+                Use JavaScript only for progressive enhancement. All site content and basic
+                functionality (e.g., clicking links, viewing images and other media, scrolling,
+                submitting forms) must still be accessible even in the absence of JavaScript.
+              </li>
+              <li>
+                <b>Never use</b> <code>on-</code> or other deprecated event attributes in your
+                HTML. Handle all events via event listeners in your JavaScript. The only element in
+                your HTML that should contain any references to JavaScript should be a
+                <code>&lt;script&gt;</code> element that loads your JavaScript file, and possibly
+                also your DOM-manipulation framework. In other words, keep your JavaScript
+                unobtrusive to progressively enhance your HTML.
+              </li>
+              <li>
+                Avoid using JavaScript to manipulate your CSS whenever possible. Limit JavaScript to
+                manipulating the DOM, including adding and removing state classes, and keep style
+                information and transitions where they belong: in your CSS file.
+              </li>
+              <li>
+                Use an immedately invoked function expression (IIFE), function closures, and other
+                techniques to avoid polluting the global <code>window</code> namespace
+              </li>
+            </ol>
           </li>
-          <li>
-            Use of only relative units (<code>em</code>, <code>rem</code>, <code>vm</code>,
-            <code>%</code>) in your CSS; no <code>px</code>, <code>pt</code>, or other absolute
-            units are permitted in your CSS
-          </li>
-          <li>
-            Use at least three min-width media queries to enhance your mobile-first styles for
-            larger screens
-          </li>
-          <li>
-            Use JavaScript only for progressive enhancement. All site content and basic
-            functionality (e.g., clicking links, viewing images and other media, scrolling,
-            submitting forms) must still be available even in the absence of JavaScript.
-          </li>
-          <li>
-            <b>Absolutely no</b> <code>on-</code> or other deprecated event attributes in your HTML.
-            Handle all events via event listeners in your JavaScript. The only element of your HTML
-            that should contain any references to JavaScript should be a <code>&lt;script&gt;</code>
-            element that loads your JavaScript file, and possibly also your DOM-manipulation
-            framework. In other words, keep your JavaScript unobtrusive to progressively enhance
-            your HTML.
-          </li>
-          <li>
-            Avoid using JavaScript to manipulate your CSS whenever possible. Limit JavaScript to
-            manipulating the DOM, including adding and removing state classes, and keep style
-            information and transitions where they belong: in your CSS file.
-          </li>
-          <li>
-            A Git repository with frequent commits and meaningful commit messages that accurately
-            reflect each set of changes that you make
-          </li>
-          <li>
-            Your GitHub repository must contain ONLY the files and commits from this project
+          <li>Git requirements:
+            <ol>
+              <li>
+                Build a Git repository with frequent commits and meaningful commit messages that
+                accurately reflect each set of changes that you make
+              </li>
+              <li>
+                Include <b>only</b> the files and commits from this project in your repository
+              </li>
+              <li>
+                Use only the command-line Git program on your computer; no commits made through the
+                GitHub web interface
+              </li>
+            </ol>
           </li>
         </ul>
       </section>
