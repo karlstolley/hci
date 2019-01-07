@@ -76,7 +76,9 @@
 
       // Insert upcoming deadlines at the end of current week's assigned work
       var upcoming_deadlines = document.querySelector('#upcoming-deadlines');
-      document.querySelector('#this-week .assigned').appendChild(upcoming_deadlines);
+      if (upcoming_deadlines) {
+        document.querySelector('#this-week .assigned').appendChild(upcoming_deadlines);
+      }
     }
 
   }
