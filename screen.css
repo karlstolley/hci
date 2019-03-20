@@ -152,11 +152,12 @@ header small {
   text-transform: uppercase;
 }
 .week h4 a {
-  line-height: 1;
+  line-height: 0;
   display: inline-block;
+  vertical-align: baseline;
 
   margin-left: 0.3618421053em;
-  padding: 0.2894736842em; /* 4.4 / 15.2  (24 - 15.2 = 8.8)*/
+  padding: 0.7894736842em 0.3947368421em 0.7894736842em 0.4605263158em; /* 12 / 15.2 = 0.7894736842 | 6 / 15.2 = 0.3947368421 | 7 / 15.2 = 0.4605263158 */
   border-radius: 0.3618421053em; /* 5.5 / 15.2 = 0.2894736842em */
 
   font-weight: normal;
