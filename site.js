@@ -194,6 +194,19 @@
     if(!sessionStorage.getItem('test_group')) {
       sessionStorage.setItem('test_group',a_or_b());
     }
+
+    if(sessionStorage.getItem('test_group') === 'b') {
+      var demo_nav_link = document.querySelector('#nav-dem a');
+      demo_nav_link.innerText = 'GitHub';
+      demo_nav_link.addEventListener('click',function(e){
+        e.preventDefault();
+        var counter = localStorage.getItem('test_github_exit') || 0;
+        counter++;
+        localStorage.setItem('test_github_exit', counter);
+        document.location.assign(demo_nav_link.href);
+      });
+    }
+
   // end DOMContentLoaded event listener
   });
 
