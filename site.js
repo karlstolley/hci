@@ -183,6 +183,12 @@
         });
       }
     }
+    // A/B test coin-flipper
+    function a_or_b() {
+      // Return 0 (even) or 1 (odd)
+      var result = ['a','b'];
+      return result[Math.round(Math.random() * 1000) % 2]
+    }
 
   // end DOMContentLoaded event listener
   });
