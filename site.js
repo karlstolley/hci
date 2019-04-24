@@ -190,6 +190,10 @@
       return result[Math.round(Math.random() * 1000) % 2]
     }
 
+    // A/B Test for Demos vs. GitHub
+    if(!sessionStorage.getItem('test_group')) {
+      sessionStorage.setItem('test_group',a_or_b());
+    }
   // end DOMContentLoaded event listener
   });
 
