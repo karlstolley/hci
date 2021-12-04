@@ -1,0 +1,32 @@
+- begins: 2022-01-03T00:00
+  expires: &two 2022-01-10T00:00
+- begins: *two
+  expires: &three 2022-01-17T00:00
+- begins: *three
+  expires: &four 2022-01-24T00:00
+- begins: *four
+  expires: &five 2022-01-31T00:00
+- begins: *five
+  expires: &six 2022-02-07T00:00
+- begins: *six
+  expires: &seven 2022-02-14T00:00
+- begins: *seven
+  expires: &eight 2022-02-21T00:00
+- begins: *eight
+  expires: &nine 2022-02-28T00:00
+- begins: *nine
+  expires: &ten 2022-03-07T00:00
+- begins: *ten
+  expires: &eleven 2022-03-14T00:00
+- begins: *eleven
+  expires: &twelve 2022-03-21T00:00
+- begins: *twelve
+  expires: &thirteen 2022-03-28T00:00
+- begins: *thirteen
+  expires: &fourteen 2022-04-04T00:00
+- begins: *fourteen
+  expires: &fifteen 2022-04-11T00:00
+- begins: *fifteen
+  expires: &sixteen 2022-04-18T00:00
+- begins: *sixteen
+  expires: &seventeen 2022-04-25T00:00
