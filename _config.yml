@@ -1,20 +1,20 @@
-url: https://courses.stolley.co
+url: &live https://courses.stolley.co
+live_url: *live
 baseurl: /hci/
 
 timezone: America/Chicago
 
 course:
-  number: COM 101
+  number: ITMD 362
   title: Human-Computer Interaction and Web Design
   uid: hci
   tagline: >
-    Write a course tagline in `_config.yml`
-  term: 2022
+    Principles and practices of HCI applied to test-driven, mobile-first web design and development.
+  term: Spring 2022
   # Set `days: ""` (empty string) for weekly/asynchronous classes
-  days: 
+  days:
     - Monday
     - Wednesday
-    
   license:
     name: Creative Commons
     url: https://creativecommons.org/licenses/by/4.0/
@@ -22,22 +22,32 @@ course:
     honorific: Dr.
     name: Karl Stolley
     title: Professor
-    full_title: Enter a full professional title in `_config.yml`
-    url: https://example.com/instructor/
-    github: https://github.com/example/
-    email: karl.stolley@gmail.com
+    full_title: Associate Professor of Information Technology and Management
+    url: https://stolley.co/
+    github: https://github.com/karlstolley/
+    email: kstolley@iit.edu
     office_hours: >
-      Detail your office hours in `_config.yml`
-  ta:
-    name:
-    full_title:
-    url:
-    email:
-    office_hours: >
+      Office hours via Basecamp Chat or Pings on <b>Tuesdays, 4pm to 5pm</b> Central Time
+      (America/Chicago), or by appointment or chance. If you’d like to audio or video chat, we can
+      of course do that, too. Just message me first. I’m always signed into Basecamp and closely
+      monitor my notifications. Message or email any time—I make students a priority, and I will
+      respond as soon as I am able.
   navigation:
     - label: Calendar
       href: "#this-week"
       id: cal
+    - label: Basecamp
+      href: "https://launchpad.37signals.com/signin"
+      id: bcp
+    - label: Meet
+      href: "https://3.basecamp.com/3058761/buckets/23600578/messages/4053415605"
+      id: gmt
+    - label: Demos
+      href: "https://github.com/rtc-2021"
+      id: dmo
+    - label: Links
+      href: "links/"
+      id: lnk
     - label: Projects
       href: "projects/#current"
       id: pro
@@ -46,6 +56,14 @@ course:
       id: pol
   css:
     font-url: "https://use.typekit.net/lec4tmb.css"
+    theme: winter
+  archives:
+    - label: Spring 2019
+      url: "https://courses.stolley.co/hci-2019/"
+    - label: Spring 2018
+      url: "https://courses.stolley.co/hci-2018/"
+    - label: Spring 2017
+      url: "https://courses.stolley.co/hci-2017/"
 
 collections_dir: syllabus
 
@@ -58,13 +76,13 @@ collections:
     # /syllabus/_policies/ directory
     order:
       - description.md
-      - goals.md
       - outcomes.md
       - objectives.md
       - books.md
       - materials.md
       - special-needs.md
       - participation.md
+      - meetings.md
       - assignment-submission.md
       - late-work.md
       - grading-policy.md
