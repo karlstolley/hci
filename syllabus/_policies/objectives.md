@@ -4,13 +4,10 @@ title: Course Objectives
 
 Students completing this course will learn to:
 
-* Explain the client and server architecture of the internet and related web technologies
-* Use a basic text editor and other software tools to create web pages using HTML, CSS, JavaScript, and images
-* Deploy web pages to a Linux-based web server using sftp and more leading-edge methods, such as
-  automated deploys integrated with version control
-* Describe the history and track the ongoing development of web standard specifications from the
-  W3C, ISO, IETF, and other specifications-issuing groups
-* Research and argue for particular methods of web development that keep structure in HTML, design
-  entirely in CSS, and progressively enhanced behavior in JavaScript
-* Engage in agile, iterative web development, supported by version control
-* Write useful, descriptive messages attached to granular commits in a version control system
+* Describe the diversity of information system users and tasks, and their impact on design
+* Describe the core concepts, applicability, and cost benefits of user-centered design
+* Demonstrate how user-centered concerns can be incorporated into system development life cycles
+* Explain the need to evaluate system usability
+* Describe and apply general principles of design
+* Describe and execute touch-friendly, mobile-first responsive web design
+* Understand and apply core theories from human-computer interaction to web design and development
