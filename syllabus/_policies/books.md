@@ -2,24 +2,30 @@
 title: Books
 comment: >
   <b>My policy for assigning books:</b> Required books are all required in the edition indicated;
-  the total retail price tag for the entire course should be less than $100 (this one is $60 on the
-  high end); and each book should be worthy of a place on your bookshelf or electronic device of
-  choice long after the class has ended. I want to help you build your professional library while
-  also being sensitive to your personal finances.
+  the total retail price tag for the entire course should be less than $100 (this one is $118 on the
+  high end, but with discounts, the total should be under $100); and each book should be worthy of a
+  place on your bookshelf or electronic device of choice long after the class has ended. I want to
+  help you build your professional library while also being sensitive to your personal finances.
 ---
 
 <section class="required" markdown="1">
 <h3>Required</h3>
-- Andrew, R. <cite>The New CSS Layout</cite>. A Book Apart, $15 (eBook), 9781937557683
-- Keith, J. & Andrew, R. <cite>HTML5 for Web Designers, 2nd ed.</cite>. A Book Apart, $15 (eBook),
-  9781937557249
-- Marcotte, E. <cite>Responsive Web Design, 2nd ed.</cite> A Book Apart, $15 (eBook), 9781937557188
-- Santa Maria, J. <cite>On Web Typography</cite>. A Book Apart, $15 (eBook), 9781937557065
-
+- Butterick, Matthew. <cite><a href="https://practicaltypography.com/">Butterick’s Practical
+  Typography</a>, 2nd ed</cite>. Open access. (web)
+- Clark, Josh. <cite>Designing for Touch</cite>. New York: A Book Apart, 2015. $15 (eBook),
+  ISBN 9781937557287
+- Jehl, Scott. <cite>Responsible Responsive Design</cite> New York: A Book Apart, 2014. $15 (eBook),
+  ISBN 9781937557164
+- Kalbag, Laura. <cite>Accessibility for Everyone</cite>. New York: A Book Apart, 2017.
+  $15 (eBook), ISBN 9781937557614
+- Krug, Steven. <cite>Don’t Make Me Think, Revisited: A Common Sense Approach to Web Usability,
+  3rd ed</cite>. Berkeley, CA: New Riders, 2014. $36 (eBook), ISBN 9780321965516
+- Samara, Timothy. <cite>Making and Breaking the Grid, 2nd ed</cite>. Beverly, MA: Rockport
+  Publishers, 2017. $37 (paperback), ISBN 9781631592843
 
 <aside class="recommended" markdown="1">
 <h3>Recommended</h3>
-- Swicegood, T. <cite>Pragmatic Version Control Using Git</cite>. Pragmatic Bookshelf, $25 (eBook),
-  9781934356159
+- Andrew, Rachel. <cite>The New CSS Layout</cite>. New York: A Book Apart, 2017. $15 (eBook),
+  ISBN 9781937557683
 </aside>
 </section>
