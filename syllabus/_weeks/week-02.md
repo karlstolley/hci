@@ -1,14 +1,14 @@
 ---
-theme: Theme for Week Two
+theme: Accessibility and Web Standards
 meetings:
   - agenda:
-      -
-    video:
+      - "**No class**. Martin Luther King, Jr. holiday"
   - agenda:
-      -
+      - Accessibility
+      - Review of web standards
     video:
 readings:
-  -
+  - Accessibility for Everyone
 tasks:
-  -
+  - TBD
 ---

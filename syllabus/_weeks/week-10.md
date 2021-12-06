@@ -1,14 +1,8 @@
 ---
-theme: Theme for Week Ten
+theme: Spring Break
 meetings:
   - agenda:
-      -
-    video:
+      - No class.
   - agenda:
-      -
-    video:
-readings:
-  -
-tasks:
-  -
+      - No class.
 ---

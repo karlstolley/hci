@@ -1,14 +1,14 @@
 ---
-theme: Theme for Week Fifteen
+theme: Catch-up Week
 meetings:
   - agenda:
-      -
+      - TBD
     video:
   - agenda:
-      -
+      - TBD
     video:
 readings:
-  -
+  - TBD
 tasks:
-  -
+  - TBD
 ---
