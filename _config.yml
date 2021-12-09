@@ -6,6 +6,9 @@ timezone: America/Chicago
 
 course:
   number: ITMD 362
+  id:
+    code: ITMD
+    ug: 362
   title: Human-Computer Interaction and Web Design
   uid: hci
   tagline: >
