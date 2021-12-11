@@ -11,10 +11,10 @@ simple guidelines:
   the classroom, including all students and the instructor, must wear a mask, regardless of
   vaccination status.** Changes to University policy will be reflected here.
 * **If you are sick or even just think you’re sick, stay home.** You can watch class live via Google
-  Meet or later on YouTube. There is no penalty for missing an in-person class, and definitely no
-  reward for trying to be heroic and showing up if you’re unwell. Your health—and the health of
-  those around you—is the top priority. But do check in with me so that you stay on track as you are
-  able.
+  Meet or later on YouTube. Stay home. There is no penalty for missing an in-person class, and
+  definitely no reward for trying to be heroic and showing up if you’re unwell. Seriously, stay
+  home. Your health—and the health of those around you—is the top priority. So again: stay home. But
+  do check in with me so that you keep on track as you are able.
 
 </section>
 
@@ -28,12 +28,12 @@ meetings, here are just a few simple guidelines:
   whether to broadcast your camera or not.
 * **Please mute your mic if you’re not speaking.** Self-explanatory. Muted mics cut down on ambient
   noise and occasional echo that can be real problems for people who have hearing difficulties. I
-  encourage you to turn on the live closed captioning when we’re in Google Meet.
+  encourage you to turn on the live closed captioning when we’re in Google Meet, too.
 * **Neither you nor our Meet room will appear in class videos.** I will always teach class with our
   Google Meet room on a second screen that will not be recorded. If you opt to speak, your voice
   may be in the video, of course. But you also have the option of messaging in the Meet room by
-  text; I will keep an eye on that as class is going, in case you wish to raise questions or ask for
-  clarification that way.
+  text; I will keep an eye on that as class is going, in case you wish to raise questions, drop a
+  corny joke, or ask for clarification that way.
 * **If my Internet connection fails, I will still record and post class.** That kind of thing does
   happen: sometimes before class, sometimes during. If I’ve got Internet troubles, I’ll post to
   Basecamp from my phone and let everyone know what’s going on.
