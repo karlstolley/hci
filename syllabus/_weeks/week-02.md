@@ -4,6 +4,7 @@ meetings:
   - agenda:
       - "**No class**. Martin Luther King, Jr. holiday"
   - agenda:
+      - "**Online class**."
       - Accessibility
       - Review of web standards
     video:
