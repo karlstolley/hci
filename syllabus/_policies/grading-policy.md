@@ -8,8 +8,8 @@ title: Grading Policy
 - Production Problems: 25 points
 - Basecamp Participation: 20 total points, tallied at three Checkpoints:
   - Checkpoint One (~ Week Four): 4 points (20% of 20 total points)
-  - Checkpoint Two (~ Week Ten): 8 points (40% of 20 total points)
-  - Checkpoint Three (~ Week Fifteen): 8 points (40% of 20 total points)
+  - Checkpoint Two (~ Week Nine): 8 points (40% of 20 total points)
+  - Checkpoint Three (~ Week Fourteen): 8 points (40% of 20 total points)
 - TOTAL: 100 points
 
 Lowest A, 90 points; B, 80 points; C, 70 points; D, 60 points.
