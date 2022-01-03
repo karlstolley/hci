@@ -1,14 +1,13 @@
 ---
-theme: Interface Layout
+theme: Interface Layout and User Feedback
 meetings:
   - agenda:
-     - TBD
+     - Layout of interface components
     video:
   - agenda:
-     - TBD
+     - Error messages and other user alerts
     video:
 readings:
- - TBD
-tasks:
- - TBD
+  - "Scott Jehl, <cite>Responsible Responsive Design</cite>, Chapter&nbsp;3"
+  - Participate in Week One reading discussion on Basecamp
 ---

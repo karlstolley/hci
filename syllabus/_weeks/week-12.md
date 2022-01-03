@@ -2,13 +2,13 @@
 theme: Data-Driven Interfaces
 meetings:
   - agenda:
-      - TBD
+      - Data serialization with JSON
     video:
   - agenda:
-      - TBD
+      - Mocking dynamic sites for UI development
     video:
 readings:
-  - TBD
+  - "Steven Krug, <cite>Don’t Make Me Think, Revisited</cite>: Introduction, Chapters&nbsp;1–8"
 tasks:
   - TBD
 ---

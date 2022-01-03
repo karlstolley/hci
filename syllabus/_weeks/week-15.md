@@ -7,8 +7,6 @@ meetings:
   - agenda:
       - TBD
     video:
-readings:
-  - TBD
 tasks:
   - TBD
 ---

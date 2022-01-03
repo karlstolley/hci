@@ -2,13 +2,14 @@
 theme: Usability and Usability Testing
 meetings:
   - agenda:
-      - TBD
+      - Usability principles
+      - Usability as engineering practice
     video:
   - agenda:
-      - TBD
+      - Usability testing
     video:
 readings:
-  - TBD
+  - "Steven Krug, <cite>Don’t Make Me Think, Revisited</cite>: Chapters&nbsp;9–13"
 tasks:
-  - TBD
+  - Production Problem 05
 ---

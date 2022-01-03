@@ -2,13 +2,26 @@
 theme: Color and Color Theory
 meetings:
   - agenda:
-      - TBD
+      - Color theory
+      - Color and accessibility
+      - Color on electronic displays
+      - Color models in computing generally, CSS specifically
     video:
   - agenda:
-      - TBD
+      - Creating color palettes and schemes
+      - Color profiles and digital images
     video:
 readings:
-  - TBD
+  - >
+    Cameron Chapman, Color Theory for Designers.
+    [Part 1: The Meaning of Color](https://www.smashingmagazine.com/2010/01/color-theory-for-designers-part-1-the-meaning-of-color/),
+    [Part 2: Understanding Concepts And Color Terminology](https://www.smashingmagazine.com/2010/02/color-theory-for-designers-part-2-understanding-concepts-and-terminology/),
+    [Part 3: Part 3: How To Create Your Own Color Schemes](https://www.smashingmagazine.com/2010/02/color-theory-for-designer-part-3-creating-your-own-color-palettes/)
+  - Sarah Drasner, [A Nerd’s Guide to Color on the Web](https://css-tricks.com/nerds-guide-color-web/)
+  - Sam Hampton-Smith, [How to master colour theory](http://www.creativebloq.com/colour/colour-theory-11121290)
+
 tasks:
-  - TBD
+  - Production Problem 01 discussion
+  - Production Problem 02
+  - Participate in Week Four reading discussion on Basecamp
 ---

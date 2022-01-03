@@ -2,13 +2,13 @@
 theme: Automated UI Testing
 meetings:
   - agenda:
-      - TBD
+      - Deeper into NightwatchJS
     video:
   - agenda:
-      - TBD
+      - Gatekeeping commits with tests and Git hooks
     video:
 readings:
-  - TBD
+  - "Laura Kalbag, <cite>Accessibility for Everyone</cite>: Chapter&nbsp;6"
 tasks:
   - TBD
 ---

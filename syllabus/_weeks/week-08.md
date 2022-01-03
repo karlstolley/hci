@@ -2,13 +2,15 @@
 theme: Git in Team Settings
 meetings:
   - agenda:
-     - TBD
+     - Git workflows
+     - GitHub setup
     video:
   - agenda:
-     - TBD
+     - Team organization and communication
     video:
 readings:
- - TBD
+  - "Scott Jehl, <cite>Responsible Responsive Design</cite>, Chapter&nbsp;4"
 tasks:
- - TBD
+  - Production Problem 03 discussion
+  - Production Problem 04
 ---

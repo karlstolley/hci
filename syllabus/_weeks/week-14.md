@@ -2,13 +2,13 @@
 theme: A/B Testing
 meetings:
   - agenda:
-      - TBD
+      - Bikeshedding and other stupidity
     video:
   - agenda:
-      - TBD
+      - Approaches to A/B testing
     video:
 readings:
   - TBD
 tasks:
-  - TBD
+  - Production Problem 05 discussion
 ---
