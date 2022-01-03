@@ -1,17 +1,18 @@
 ---
 title: Books
 comment: >
-  <b>My policy for assigning books:</b> Required books are all required in the edition indicated;
-  the total retail price tag for the entire course should be less than $100 (this one is $118 on the
-  high end, but with discounts, the total should be under $100); and each book should be worthy of a
-  place on your bookshelf or electronic device of choice long after the class has ended. I want to
-  help you build your professional library while also being sensitive to your personal finances.
+  <b>My policy for assigning books:</b> It’s important to acquire and read the edition indicated for
+  each book, and I only assign newer editions when the content warrants it. The total retail price
+  tag for the entire course should be less than $100 (this one is $118 on the high end, but with
+  discounts the total should be under $100). Each book should be worthy of a place on your
+  bookshelf or electronic device of choice long after the class has ended. I want to help you build
+  your professional library while also being sensitive to your personal finances.
 ---
 
 <section class="required" markdown="1">
 <h3>Required</h3>
 - Butterick, Matthew. <cite><a href="https://practicaltypography.com/">Butterick’s Practical
-  Typography</a>, 2nd ed</cite>. Open access. (web)
+  Typography</a>, 2nd ed</cite>. 2021. Open access (web).
 - Clark, Josh. <cite>Designing for Touch</cite>. New York: A Book Apart, 2015. $15 (eBook),
   ISBN 9781937557287
 - Jehl, Scott. <cite>Responsible Responsive Design</cite> New York: A Book Apart, 2014. $15 (eBook),
