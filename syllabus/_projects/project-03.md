@@ -1,6 +1,8 @@
 ---
-title: Project Title
-due_date: &deadline 2020-05-25
+title: User-Tested, Revised Scheduling System
+preview: true
+due_date: &deadline 2022-05-05
+preview: true
 goals:
   - The first goal.
   - The second goal.
@@ -20,4 +22,6 @@ deliverables:
     deadline: 2020-01-15
 ---
 
-The full project description goes here. You know how instructors love to go on and on.
+The final project of the course asks you to subject your group’s scheduling system project to a
+series of low-stakes user tests, and to develop and implement improvements to the project based on
+what you learn through your user tests.
