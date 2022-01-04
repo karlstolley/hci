@@ -12,4 +12,5 @@ readings:
   - "Steven Krug, <cite>Don’t Make Me Think, Revisited</cite>: Chapters&nbsp;9–13"
 tasks:
   - Production Problem 05
+  - Participate in Week Thirteen reading discussion on Basecamp
 ---

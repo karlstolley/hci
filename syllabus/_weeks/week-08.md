@@ -13,4 +13,5 @@ readings:
 tasks:
   - Production Problem 03 discussion
   - Production Problem 04
+  - Participate in Week Eight reading discussion on Basecamp
 ---

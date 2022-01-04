@@ -10,5 +10,5 @@ meetings:
 readings:
   - "Steven Krug, <cite>Don’t Make Me Think, Revisited</cite>: Introduction, Chapters&nbsp;1–8"
 tasks:
-  - TBD
+  - Participate in Week Twelve reading discussion on Basecamp
 ---

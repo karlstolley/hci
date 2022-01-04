@@ -10,5 +10,5 @@ meetings:
 readings:
   - "Laura Kalbag, <cite>Accessibility for Everyone</cite>: Chapter&nbsp;6"
 tasks:
-  - TBD
+  - Participate in Week Eleven reading discussion on Basecamp
 ---
