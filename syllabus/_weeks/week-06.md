@@ -2,6 +2,7 @@
 theme: Touch Interfaces; End-to-End Testing
 meetings:
   - agenda:
+     - "**Online class.**"
      - Touch interfaces
      - Screen sizes
      - Input devices
