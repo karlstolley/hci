@@ -40,13 +40,13 @@ course:
       href: "#this-week"
       id: cal
     - label: Basecamp
-      href: "https://launchpad.37signals.com/signin"
+      href: "https://3.basecamp.com/3058761/projects/24749467"
       id: bcp
     - label: Meet
-      href: "https://3.basecamp.com/3058761/buckets/23600578/messages/4053415605"
+      href: "https://3.basecamp.com/3058761/projects/24749467"
       id: gmt
     - label: Demos
-      href: "https://github.com/rtc-2021"
+      href: "https://github.com/hci-2022"
       id: dmo
     - label: Links
       href: "links/"
