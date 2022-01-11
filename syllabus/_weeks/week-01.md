@@ -6,7 +6,7 @@ meetings:
       - Welcome & introductions
       - Course policies
       - Course calendar
-    video:
+    video: https://youtu.be/0uMZxqST-Kk
   - agenda:
       - "**Online class**."
       - Technical foundations and dev environment setup
