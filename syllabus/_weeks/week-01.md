@@ -10,7 +10,7 @@ meetings:
   - agenda:
       - "**Online class**."
       - Technical foundations and dev environment setup
-    video:
+    video: https://youtu.be/usNc8ST_QOk
 readings:
   - "Laura Kalbag, <cite>Accessibility for Everyone</cite>: Foreword; Chapters&nbsp;1–3"
   - MDN, [The web and web standards](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/The_web_and_web_standards)
