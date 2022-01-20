@@ -11,7 +11,7 @@ meetings:
       - >
         [Linting](https://gist.github.com/profstolley/559aac5112928c7c24c628c6305b70b8) HTML, CSS,
         and JavaScript
-    video:
+    video: https://youtu.be/FCd3YmvPoI0
 readings:
   - "Scott Jehl, <cite>Responsible Responsive Design</cite>: Introduction"
   - "Laura Kalbag, <cite>Accessibility for Everyone</cite>: Chapters&nbsp;4–5 & 7"
