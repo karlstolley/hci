@@ -3,9 +3,12 @@ theme: Typography; Visual Regression Testing
 meetings:
   - agenda:
       - Introduce [Project One](projects/#project-one)
-      - Principles of typography
-      - Typographic anatomy
-      - Typeface families and selection
+      - Principles of typography and typographic anatomy
+      - Typeface selection and pairing
+      - Web fonts
+      - "[Reset CSS](https://gist.github.com/profstolley/b1f851e061f98fcbc0e41d39adc32847)"
+      - >
+        [Linting](https://gist.github.com/profstolley/559aac5112928c7c24c628c6305b70b8) CSS
     video:
   - agenda:
       - Establishing a typographic baseline grid
@@ -25,6 +28,7 @@ readings:
     (all subsections within the major sections linked here)
   - BackstopJS, [Using BackstopJS](https://github.com/garris/BackstopJS#using-backstopjs)
 tasks:
+  - Production Problem 00 (optional, but highly recommended)
   - Production Problem 01
   - Participate in Week Three reading discussion on Basecamp
 ---

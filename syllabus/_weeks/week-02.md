@@ -6,11 +6,8 @@ meetings:
   - agenda:
       - "**Online class**."
       - Accessibility and web standards review
-      - Reset CSS
-      - JavaScript event listeners
       - >
-        [Linting](https://gist.github.com/profstolley/559aac5112928c7c24c628c6305b70b8) HTML, CSS,
-        and JavaScript
+        [Linting](https://gist.github.com/profstolley/559aac5112928c7c24c628c6305b70b8) HTML
     video: https://youtu.be/FCd3YmvPoI0
 readings:
   - "Scott Jehl, <cite>Responsible Responsive Design</cite>: Introduction"

@@ -8,6 +8,10 @@ meetings:
       - Color models in computing generally, CSS specifically
     video:
   - agenda:
+      - HTML form elements
+      - JavaScript event listeners (form elements)
+      - >
+        [Linting](https://gist.github.com/profstolley/559aac5112928c7c24c628c6305b70b8) JavaScript
       - Creating color palettes and schemes
       - Color profiles and digital images
     video:
