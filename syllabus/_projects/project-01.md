@@ -1,7 +1,7 @@
 ---
 title: Shipping and Payment Form
 due_date: &deadline 2022-03-03
-preview: true
+preview: false
 goals:
   - Conduct task analysis & apply the information to user-centered design
   - Design and build a user-centered website applying good principles of design
@@ -39,14 +39,16 @@ requirements:
         Bootstrap or other off-the-shelf HTML or CSS frameworks); no presentational classes
   - heading: Code Quality
     requirements:
+      - Make use of both the validators and linters to ensure the quality of both your HTML and CSS
       - >
         Your project repository **must** contain the ITMD 362–style
         [`.htmllintrc`](https://gist.github.com/profstolley/559aac5112928c7c24c628c6305b70b8#file-htmllintrc),
         [`.stylelintrc`](https://gist.github.com/profstolley/559aac5112928c7c24c628c6305b70b8#file-stylelintrc), and
         [`.eslintrc.json`](https://gist.github.com/profstolley/559aac5112928c7c24c628c6305b70b8#file-eslintrc-json)
         linter configuration files
-      - Make use of both the validators and linters to ensure the quality of both your HTML and CSS
-      - Configure and present a suite of visual regression tests using BackstopJS
+      - >
+        Configure and present a suite of visual regression tests using BackstopJS, anchored to the
+        viewports set in your CSS media queries
   - heading: HTML Requirements
     requirements:
       - Use only valid, semantic well-formed HTML
@@ -95,6 +97,9 @@ requirements:
         Your commit messages should be in sentence case and begin with a verb in the imperative mood
         (e.g., Add..., Update..., Remove...)
       - >
+        Include a `.gitignore` file that ignores the test files from BackstopJS; you should commit
+        only the reference images—not the images from each test run
+      - >
         Your GitHub repository must contain **only** the files and commits from this project; you
         are encouraged to use and further improve your HTML files from Project One, but create a
         brand-new repository for Project Two on your computer and on GitHub
@@ -124,9 +129,11 @@ deliverables:
 ---
 
 You will create a compelling, multi-page process that walks a user through payment, billing, and
-shipping options to complete the order of items in the user’s shopping cart. The goal of this
-project is to experiment with patterns of interaction that make it as effortless as possible for
-users to complete their purchases, which is not an easy task. Design for straightforward, engaging
-entry of personal information. Include friendly, frictionless client-side tests and alerts for
-malformed, missing, or incomplete information. And bring a full suite of validators, linters, and
-visual regression tests to ensure code quality from your earliest commits.
+shipping options to complete the order of a pre-selected set of items in the user’s shopping cart.
+The goal of this project is to experiment with patterns of interaction that make it as effortless as
+possible for users to complete a purchase, which is not an easy task.
+
+Design for straightforward, engaging entry of personal information. Include friendly, frictionless
+client-side tests and alerts for malformed, missing, or incomplete information. And bring a full
+suite of validators, linters, and visual regression tests to ensure code quality from your earliest
+commits.
