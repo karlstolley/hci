@@ -12,10 +12,7 @@ layout: links
 * [Class Demos](https://github.com/hci-2022)
 * [Class Videos](https://www.youtube.com/playlist?list=PLMr8hpt6mGnsSRpDlWHfIKn0yDQEgxjzC)
   (YouTube Playlist)
-
-<!--
-* [Production Problems Repo](https://github.com/fwd-2021/fwd-production-problems/)
--->
+* [Production Problems Repo](https://github.com/hci-2022/hci-production-problems)
 
 </section>
 
