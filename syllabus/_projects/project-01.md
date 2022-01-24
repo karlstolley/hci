@@ -37,6 +37,19 @@ requirements:
       - >
         Present source code that is hand-written and original (no WYSIWYGs or code-generators, no
         Bootstrap or other off-the-shelf HTML or CSS frameworks); no presentational classes
+  - heading: WCAG Requirements
+    requirements:
+      - >
+        Satisfy all applicable Level A success criteria from [WCAG 2.1](https://www.w3.org/TR/WCAG21/)
+      - Aim for satisfying all applicable Level AA success criteria
+      - >
+        Note in your Project Draft and final project memo any Level AAA
+        [conformance](https://www.w3.org/TR/WCAG21/#conformance) you've achieved
+      - >
+        Reference both the [WCAG 2.1 specification](https://www.w3.org/TR/WCAG21/) and the [How to
+        Meet WCAG (Quick Reference)](https://www.w3.org/WAI/WCAG21/quickref/) (hint: the Quick
+        Reference has customizable filters to help you target the success criteria relevant to your
+        Project)
   - heading: Code Quality
     requirements:
       - Make use of both the validators and linters to ensure the quality of both your HTML and CSS
