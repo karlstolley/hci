@@ -9,7 +9,7 @@ meetings:
       - "[Reset CSS](https://gist.github.com/profstolley/b1f851e061f98fcbc0e41d39adc32847)"
       - >
         [Linting](https://gist.github.com/profstolley/559aac5112928c7c24c628c6305b70b8) CSS
-    video:
+    video: https://youtu.be/Qzr4l7l-Ppc
   - agenda:
       - Establishing a typographic baseline grid
       - Form elements and interface typography
