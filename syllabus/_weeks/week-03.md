@@ -28,7 +28,10 @@ readings:
     (all subsections within the major sections linked here)
   - BackstopJS, [Using BackstopJS](https://github.com/garris/BackstopJS#using-backstopjs)
 tasks:
-  - Production Problem 00 (optional, but highly recommended)
-  - Production Problem 01
+  - >
+    [Production Problem 00](https://github.com/hci-2022/hci-production-problems/tree/main/pp-00)
+    (optional, but highly recommended)
+  - >
+    [Production Problem 01](https://github.com/hci-2022/hci-production-problems/tree/main/pp-01)
   - Participate in Week Three reading discussion on Basecamp
 ---
