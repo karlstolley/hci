@@ -113,9 +113,7 @@ requirements:
         Include a `.gitignore` file that ignores the test files from BackstopJS; you should commit
         only the reference images—not the images from each test run
       - >
-        Your GitHub repository must contain **only** the files and commits from this project; you
-        are encouraged to use and further improve your HTML files from Project One, but create a
-        brand-new repository for Project Two on your computer and on GitHub
+        Your GitHub repository must contain **only** the files and commits from this project
 deliverables:
   - action: "Post your set of interface sketches to the Project One Sketches board on Basecamp."
     description: >
