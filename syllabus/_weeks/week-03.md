@@ -5,17 +5,19 @@ meetings:
       - Introduce [Project One](projects/#project-one)
       - Principles of typography and typographic anatomy
       - Typeface selection and pairing
-      - Web fonts
+    video: https://youtu.be/Qzr4l7l-Ppc
+  - agenda:
       - "[Reset CSS](https://gist.github.com/profstolley/b1f851e061f98fcbc0e41d39adc32847)"
       - >
         [Linting](https://gist.github.com/profstolley/559aac5112928c7c24c628c6305b70b8) CSS
-    video: https://youtu.be/Qzr4l7l-Ppc
-  - agenda:
       - Establishing a typographic baseline grid
-      - Form elements and interface typography
       - Visual regression testing with [BackstopJS](https://garris.github.io/BackstopJS/)
       - BackstopJS [setup and configuration](https://github.com/garris/BackstopJS#contents)
       - Configuring `.gitignore` for BackstopJS
+      - >
+        Web fonts and a bit more
+        [typeface anatomy](https://typeanatomy.com/post/640694338958000129/type-anatomy-in-six-letters-ever-since-the-book)
+      - Form elements and interface typography
     video:
 readings:
   - >
