@@ -18,7 +18,7 @@ meetings:
         Web fonts and a bit more
         [typeface anatomy](https://typeanatomy.com/post/640694338958000129/type-anatomy-in-six-letters-ever-since-the-book)
       - Form elements and interface typography
-    video:
+    video: https://youtu.be/OzpTUEyKN6I
 readings:
   - >
     Matthew Butterick, [<cite>Butterick's Practical Typography</cite>](https://practicaltypography.com/):
