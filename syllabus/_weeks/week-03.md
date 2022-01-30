@@ -14,10 +14,6 @@ meetings:
       - Visual regression testing with [BackstopJS](https://garris.github.io/BackstopJS/)
       - BackstopJS [setup and configuration](https://github.com/garris/BackstopJS#contents)
       - Configuring `.gitignore` for BackstopJS
-      - >
-        Web fonts and a bit more
-        [typeface anatomy](https://typeanatomy.com/post/640694338958000129/type-anatomy-in-six-letters-ever-since-the-book)
-      - Form elements and interface typography
     video: https://youtu.be/OzpTUEyKN6I
 readings:
   - >
