@@ -13,7 +13,7 @@ meetings:
         [typeface anatomy](https://typeanatomy.com/post/640694338958000129/type-anatomy-in-six-letters-ever-since-the-book)
       - Color on electronic displays
       - Color models in computing generally, CSS specifically
-    video:
+    video: https://youtu.be/5N9nKpQQgdU
   - agenda:
       - "**Online class.**"
       - Color theory
