@@ -20,7 +20,7 @@ meetings:
       - Color and accessibility
       - Creating color palettes and schemes
       - Color profiles and digital images
-    video:
+    video: https://youtu.be/GaG5LSboJkY
 readings:
   - >
     Cameron Chapman, Color Theory for Designers.
