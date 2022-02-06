@@ -4,9 +4,6 @@ meetings:
   - agenda:
       - ITMO announcement
       - HTML form elements
-      - JavaScript event listeners (form elements)
-      - >
-        [Linting](https://gist.github.com/profstolley/559aac5112928c7c24c628c6305b70b8) JavaScript
       - Form elements and interface typography
       - >
         Web fonts and a bit more
