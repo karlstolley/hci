@@ -2,12 +2,11 @@
 theme: Touch Interfaces; End-to-End Testing
 meetings:
   - agenda:
-     - "**Online class.**"
+     - "**No class.**"
+  - agenda:
      - Touch interfaces
      - Screen sizes
      - Input devices
-    video:
-  - agenda:
      - Basic end-to-end testing with NightwatchJS
     video:
 readings:
