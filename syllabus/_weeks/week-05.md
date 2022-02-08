@@ -12,7 +12,7 @@ meetings:
       - Accessing form data from JavaScript
       - >
         [Linting](https://gist.github.com/profstolley/559aac5112928c7c24c628c6305b70b8) JavaScript
-    video:
+    video: https://youtu.be/4vqzXgh4wos
   - agenda:
       - "[Nightwatch](https://nightwatchjs.org/)"
     video:
