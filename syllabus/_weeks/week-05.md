@@ -15,7 +15,7 @@ meetings:
     video: https://youtu.be/4vqzXgh4wos
   - agenda:
       - "[Nightwatch](https://nightwatchjs.org/)"
-    video:
+    video: https://youtu.be/0AEk-zjgH7E
 readings:
   - "Scott Jehl, <cite>Responsible Responsive Design</cite>, Chapters&nbsp;1–2"
   - MDN, [Document.forms](https://developer.mozilla.org/en-US/docs/Web/API/Document/forms)
