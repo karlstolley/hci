@@ -1,11 +1,13 @@
 ---
-theme: Catch-up Week
+theme: Git in Team Settings
 meetings:
   - agenda:
-     - TBD
+      - Git workflows
+      - GitHub setup
+      - Team organization and communication
     video:
   - agenda:
-     - TBD
+      - Work Day?
     video:
 readings:
   - Timothy Samara, <cite>Making and Breaking the Grid</cite>, Part 2 (pp. 124–233)
