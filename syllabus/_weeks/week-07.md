@@ -1,5 +1,5 @@
 ---
-theme: Page and Interface Layouts; More End-to-End Testing
+theme: Page and Interface Layouts
 meetings:
   - agenda:
       - "Grid-based layout: history, theory, and terminology"
@@ -11,7 +11,6 @@ meetings:
       - Grids in page layouts
       - Layout of interface components
       - Preserving room for user alerts
-      - Basic end-to-end testing with NightwatchJS
       - Grid layouts for UI modules
     video:
 readings:
