@@ -10,7 +10,7 @@ meetings:
      - Progressive disclosure
      - >
        Maintaining data between page refreshes with [LocalStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
-    video:
+    video: https://youtu.be/72_0VyKBvsc
 readings:
   - "Josh Clark, <cite>Designing for Touch</cite>, Chapters&nbsp;1–5"
 tasks:
