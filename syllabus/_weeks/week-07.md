@@ -2,6 +2,7 @@
 theme: Page and Interface Layouts
 meetings:
   - agenda:
+      - "**Online class.**"
       - "Grid-based layout: history, theory, and terminology"
       - Conceiving a responsive, grid-based layout
       - Executing grid layouts in CSS
