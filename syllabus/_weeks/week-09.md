@@ -12,6 +12,6 @@ meetings:
 readings:
   - Timothy Samara, <cite>Making and Breaking the Grid</cite>, Part 2 (pp. 124–233)
 tasks:
-  - Production Problem 04
+  - Production Problem 03 discussion
   - Participate in Week Nine reading discussion on Basecamp
 ---

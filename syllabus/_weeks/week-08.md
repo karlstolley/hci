@@ -12,6 +12,6 @@ meetings:
 readings:
   - "Scott Jehl, <cite>Responsible Responsive Design</cite>, Chapter&nbsp;4"
 tasks:
-  - Production Problem 03 discussion
+  - Production Problem 03
   - Participate in Week Eight reading discussion on Basecamp
 ---

@@ -24,6 +24,5 @@ readings:
   - "Scott Jehl, <cite>Responsible Responsive Design</cite>, Chapter&nbsp;3"
   - MDN, [Web Storage API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API)
 tasks:
-  - Production Problem 03
   - Participate in Week Seven reading discussion on Basecamp
 ---
