@@ -8,7 +8,7 @@ meetings:
       - Executing grid layouts in CSS
       - Leveraging intrinsic web design
       - Last bits of progressive disclosure
-    video:
+    video: https://youtu.be/w8XO4wxVTAE
   - agenda:
       - >
          Maintaining data between page refreshes with [LocalStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
