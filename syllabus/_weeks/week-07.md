@@ -16,7 +16,7 @@ meetings:
       - Layout of interface components
       - Preserving room for user alerts
       - Grid layouts for UI modules
-    video:
+    video: https://youtu.be/zPxUMBJGhBY
 readings:
   - Timothy Samara, <cite>Making and Breaking the Grid</cite>, Part 1 (pp. 10–123)
   - >
