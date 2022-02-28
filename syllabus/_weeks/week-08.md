@@ -2,10 +2,11 @@
 theme: Building Test Suites; Coupling Tests to Git
 meetings:
   - agenda:
-      - More sophisticated tests NightwatchJS
-      - More sophisticated tests in BackstopJS
+      - "**No class.**"
     video:
   - agenda:
+      - More sophisticated tests NightwatchJS
+      - More sophisticated tests in BackstopJS
       - Concepts and use of [Git hooks](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks)
       - Protecting your repo behind your test suites
     video:
