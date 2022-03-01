@@ -1,14 +1,17 @@
 ---
-theme: Building Test Suites; Coupling Tests to Git
+theme: Project-Related Questions and Issues
 meetings:
   - agenda:
       - "**No class.**"
     video:
   - agenda:
-      - More sophisticated tests NightwatchJS
-      - More sophisticated tests in BackstopJS
-      - Concepts and use of [Git hooks](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks)
-      - Protecting your repo behind your test suites
+      - Revised Project One deadlines
+      - Paths refresher
+      - Buttons vs anchors; backwards and forwards movement
+      - Form actions and methods
+      - Form-element styling for uniformity (e.g., `<input>` and `<select>`)
+      - Placeholder values
+      - "JavaScript topics: form submission; data in localStorage; user alerts; CC by type"
     video:
 readings:
   - "Scott Jehl, <cite>Responsible Responsive Design</cite>, Chapter&nbsp;4"

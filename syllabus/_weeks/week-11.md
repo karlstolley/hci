@@ -1,11 +1,15 @@
 ---
-theme: Automated UI Testing
+theme: Git in Team Settings
 meetings:
   - agenda:
-      - Deeper into NightwatchJS
+      - Introduce [Project Two](projects/#project-two)
+      - Git workflows
+      - GitHub setup
+      - Team organization and communication
     video:
   - agenda:
       - Gatekeeping commits with tests and Git hooks
+      - Deeper into NightwatchJS
     video:
 readings:
   - "Laura Kalbag, <cite>Accessibility for Everyone</cite>: Chapter&nbsp;6"
