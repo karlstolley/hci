@@ -1,6 +1,6 @@
 ---
 title: Shipping and Payment Form
-due_date: &deadline 2022-03-10
+due_date: &deadline 2022-03-21
 preview: false
 goals:
   - Conduct task analysis & apply the information to user-centered design
@@ -128,7 +128,7 @@ deliverables:
       two or three **specific** questions you’d like feedback on.
     deadline: 2022-02-24
   - action: "Respond with substantive comments on at least three other student projects."
-    deadline: 2022-03-03
+    deadline: 2022-03-10
   - action: "Email Project One deliverables to Stolley."
     description: "Your email should include:"
     details:
