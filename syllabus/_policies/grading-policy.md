@@ -2,8 +2,8 @@
 title: Grading Policy
 ---
 
-- Project One: 15 points
-- Project Two: 25 points
+- Project One: 20 points
+- Project Two: 20 points
 - Project Three: 15 points
 - Production Problems: 25 points
 - Basecamp Participation: 20 total points, tallied at three Checkpoints:
