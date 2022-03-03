@@ -12,7 +12,7 @@ meetings:
       - Form-element styling for uniformity (e.g., `<input>` and `<select>`)
       - Placeholder values
       - "JavaScript topics: form submission; data in localStorage; user alerts; CC by type"
-    video:
+    video: https://youtu.be/6NYhPBHo8Zg
 readings:
   - "Scott Jehl, <cite>Responsible Responsive Design</cite>, Chapter&nbsp;4"
 tasks:
