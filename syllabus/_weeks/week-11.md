@@ -8,8 +8,9 @@ meetings:
       - Team organization and communication
     video:
   - agenda:
-      - Gatekeeping commits with tests and Git hooks
-      - Deeper into NightwatchJS
+      - Concepts and use of [Git hooks](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks)
+      - Example [hook scripts](https://gist.github.com/karlstolley/466d8e1c06d8c36ac9aea69aefa16625)
+      - Protecting your repo behind your test suites
     video:
 readings:
   - "Laura Kalbag, <cite>Accessibility for Everyone</cite>: Chapter&nbsp;6"

@@ -2,13 +2,14 @@
 theme: Building Test Suites; Coupling Tests to Git
 meetings:
   - agenda:
-      - Any remaining Project One Qs
-      - More sophisticated tests NightwatchJS
-      - More sophisticated tests in BackstopJS
+      - Working through a localStorage example
+      - Debouncing vs. throttling events
+      - Intercepting submit events and processing data before proceeding
+      - Providing users with humane error-messages
     video:
   - agenda:
-      - Concepts and use of [Git hooks](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks)
-      - Protecting your repo behind your test suites
+      - Any remaining Project One Qs
+      - More sophisticated tests with NightwatchJS, BackstopJS
     video:
 readings:
   - Timothy Samara, <cite>Making and Breaking the Grid</cite>, Part 2 (pp. 124–233)
