@@ -1,5 +1,5 @@
 ---
-theme: Building Test Suites; Coupling Tests to Git
+theme: Forms and localStorage; Advanced Event-Handling, Tests
 meetings:
   - agenda:
       - Working through a localStorage example

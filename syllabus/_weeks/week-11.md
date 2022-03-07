@@ -1,5 +1,5 @@
 ---
-theme: Git in Team Settings
+theme: Git in Team Settings; Coupling Tests to Git
 meetings:
   - agenda:
       - Introduce [Project Two](projects/#project-two)
