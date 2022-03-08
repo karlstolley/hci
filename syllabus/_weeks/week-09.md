@@ -6,7 +6,7 @@ meetings:
       - Debouncing vs. throttling events
       - Intercepting submit events and processing data before proceeding
       - Providing users with humane error-messages
-    video:
+    video: https://youtu.be/lOrStI9and0
   - agenda:
       - Any remaining Project One Qs
       - More sophisticated tests with NightwatchJS, BackstopJS
