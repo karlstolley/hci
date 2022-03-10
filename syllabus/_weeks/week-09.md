@@ -10,7 +10,7 @@ meetings:
   - agenda:
       - Any remaining Project One Qs
       - More sophisticated tests with NightwatchJS, BackstopJS
-    video:
+    video: https://youtu.be/gIi0eu09kpU
 readings:
   - Timothy Samara, <cite>Making and Breaking the Grid</cite>, Part 2 (pp. 124–233)
 tasks:
