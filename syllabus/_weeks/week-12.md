@@ -2,6 +2,7 @@
 theme: Data-Driven Interfaces
 meetings:
   - agenda:
+      - Introduce [Project Three](projects/#project-three)
       - Data serialization with JSON
     video:
   - agenda:
