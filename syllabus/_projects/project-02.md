@@ -146,6 +146,10 @@ deliverables:
         In the email, share the URL for your team’s Git organization and your chosen communication
         platform (e.g., a team Basecamp, Slack, Discord, or whatever your team has opted to use)
     deadline: 2022-03-28
+  - action: "Submit your signed team contract to the instructor via email"
+    description: >
+      Watch for details on Basecamp.
+    deadline: 2022-03-31
   - action: "Post your team’s Project Two draft to the Project Two Drafts board on Basecamp."
     description: >
       Provide links to your team’s project repository and live site on GitHub Pages. Include in your
