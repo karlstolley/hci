@@ -115,9 +115,11 @@ requirements:
         Prepare an upstream team Git repository; use branch protection to ensure code only gets
         added to `main` via reviewed pull requests
       - >
-        Fork the upstream Git repository to your own account; make your contributions on feature
-        branches with frequent commits and meaningful commit messages that accurately reflect each
-        set of changes that you make
+        Fork the upstream Git repository to your own GitHub account, and clone it to your computer
+        (see Production Problem 04); make your contributions to the project on feature branches with
+        frequent commits and meaningful commit messages that accurately reflect each set of changes
+        that you make. Don't forget to provide or update the tests associated with your
+        contributions
       - >
         Submit small, targeted features on properly named feature branches as GitHub pull requests
         to your upstream team Git repository
@@ -139,8 +141,10 @@ deliverables:
       Team-Organization thread to group up.
     details:
       - Teams **must** be at least three students and no more than four students
-      - Have one team member contact the instructor with your team members
-      - In the email, share the URL for your team's Git organization and your
+      - Choose one team member to contact the instructor with the names of your team members
+      - >
+        In the email, share the URL for your team’s Git organization and your chosen communication
+        platform (e.g., a team Basecamp, Slack, Discord, or whatever your team has opted to use)
     deadline: 2022-03-28
   - action: "Post your team’s Project Two draft to the Project Two Drafts board on Basecamp."
     description: >
@@ -150,8 +154,8 @@ deliverables:
   - action: "Email Project Two deliverables to Stolley."
     description: "Your email should include:"
     details:
-      - The https:// link to your teams’s GitHub repository.
-      - The https:// link to your own fork of the teams’s GitHub repository.
+      - The https:// link to your team’s GitHub repository.
+      - The https:// link to your own fork of the team’s GitHub repository.
       - The link to your deployed site, such as on GitHub pages.
       - >
         A 5–7 sentence description of how results from the first round of usability testing (Project
@@ -161,19 +165,20 @@ deliverables:
     deadline: *deadline
 ---
 
-You will work teams of between three and four students to build a complete online store. Your team
-will begin by selecting the completed Project One of one of your team members, which will be the
-starter code for this project.
+You will work in teams of three and four to build a complete online store. You and your team will
+begin by selecting the completed Project One of one of your team members, which will be the starter
+code for this project.
 
-You will then be creating a single-page online store, listing at least twelve (12) products or
+You will then create a single-page online store, listing at least twelve (12) products or
 services that can be added to a cart. You will also write the structures, styles, and logic for a
-cart that can be modified: at the very least, the cart should enable users to remove items from
-their cart.
+cart that can be modified: at the very least, you must enable users to remove items from
+the cart.
 
 Your online store must then correctly calculate the total for all items in the cart, as well as add
 Illinois-state sales tax (6.25%) and any shipping fees. You will also work, as a group, to refine
-the checkout process from your team member's Project One.
+the checkout process from your team member's Project One. That will include testing the entire store
+and checkout system on actual users (see Project Three, which will overlap with Project Two).
 
-All of your work should be committed alongside accurate, appropriate tests. That is especially
-consequential for things like your cart and ensuring that your logic correctly calculates the amount
-of money your users will be charged.
+All of your work should be committed alongside accurate, appropriate tests. Tests are especially
+consequential for things like your cart's functionality, not to mention ensuring that your checkout
+logic correctly calculates the amount of money your users will be charged.
