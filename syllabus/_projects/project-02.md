@@ -135,10 +135,13 @@ requirements:
       - >
         Your GitHub repository must contain **only** the files and commits from this project
 deliverables:
-  - action: Email instructor with your team members and information.
+  - action: >
+      Email instructor with your team members and communication hub and GitHub organization
+      information.
     description: >
-      Organize into teams of 3–4 students for projects Two and Three. Use Basecamp and the
-      Team-Organization thread to group up.
+      Organize into teams of 3–4 students for projects Two and Three. Use Basecamp and [the
+      Team-Organization thread](https://3.basecamp.com/3058761/buckets/24749467/messages/4757545133)
+      to group up.
     details:
       - Teams **must** be at least three students and no more than four students
       - Choose one team member to contact the instructor with the names of your team members
