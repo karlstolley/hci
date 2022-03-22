@@ -7,7 +7,7 @@ meetings:
       - Git workflows
       - GitHub setup
       - "Keeping repos in sync; handling merge conflicts"
-    video:
+    video: https://youtu.be/_hWU0fouDVw
   - agenda:
       - Concepts and use of [Git hooks](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks)
       - Example [hook scripts](https://gist.github.com/karlstolley/466d8e1c06d8c36ac9aea69aefa16625)
