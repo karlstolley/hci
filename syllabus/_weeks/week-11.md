@@ -17,7 +17,7 @@ meetings:
         Backstop ([blurring
         elements](https://github.com/puppeteer/puppeteer/blob/v13.5.1/docs/api.md#pageevalselector-pagefunction-args-1))
         test topics
-    video:
+    video: https://youtu.be/iqzrrM1TEOo
 readings:
   - "Laura Kalbag, <cite>Accessibility for Everyone</cite>: Chapter&nbsp;6"
 tasks:
