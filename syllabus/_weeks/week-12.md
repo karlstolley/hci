@@ -1,11 +1,12 @@
 ---
-theme: Data-Driven Interfaces
+theme: Emergency JavaScript Review; Data-Driven Interfaces
 meetings:
+  - agenda:
+      - JavaScript review, based on student Qs
+    video:
   - agenda:
       - Introduce [Project Three](projects/#project-three)
       - Data serialization with JSON
-    video:
-  - agenda:
       - Mocking dynamic sites for UI development
     video:
 readings:
