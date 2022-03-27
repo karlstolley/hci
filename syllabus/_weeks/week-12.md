@@ -5,6 +5,7 @@ meetings:
       - JavaScript review, based on student Qs
     video:
   - agenda:
+      - "**Online class**"
       - Introduce [Project Three](projects/#project-three)
       - Data serialization with JSON
       - Mocking dynamic sites for UI development
