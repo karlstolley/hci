@@ -3,6 +3,9 @@ theme: Emergency JavaScript Review; Data-Driven Interfaces
 meetings:
   - agenda:
       - JavaScript review, based on student Qs
+      - The when and why of JavaScript
+      - JavaScript and progressive enhancement
+      - The centrality of [browser events](https://developer.mozilla.org/en-US/docs/Web/Events)
     video:
   - agenda:
       - "**Online class**"
