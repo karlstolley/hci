@@ -6,7 +6,7 @@ meetings:
       - The when and why of JavaScript
       - JavaScript and progressive enhancement
       - The centrality of [browser events](https://developer.mozilla.org/en-US/docs/Web/Events)
-    video:
+    video: https://youtu.be/XdSLb33oacQ
   - agenda:
       - "**Online class**"
       - Introduce [Project Three](projects/#project-three)
