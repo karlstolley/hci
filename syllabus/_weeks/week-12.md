@@ -1,5 +1,5 @@
 ---
-theme: Emergency JavaScript Review; Data-Driven Interfaces
+theme: Emergency JavaScript Review; PRs and Merge Conflicts
 meetings:
   - agenda:
       - JavaScript review, based on student Qs
@@ -10,8 +10,8 @@ meetings:
   - agenda:
       - "**Online class**"
       - Introduce [Project Three](projects/#project-three)
-      - Data serialization with JSON
-      - Mocking dynamic sites for UI development
+      - Merge conflicts in Git, generally
+      - Pull requests and resolving merge conflicts
     video:
 readings:
   - "Steven Krug, <cite>Don’t Make Me Think, Revisited</cite>: Introduction, Chapters&nbsp;1–8"
