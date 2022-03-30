@@ -59,7 +59,7 @@ deliverables:
     deadline: 2022-04-14
   - action: Complete the second round of usability testing.
     description:
-    deadline: 2022-04-22
+    deadline: 2022-04-28
   - action: Complete and email Stolley your usability report.
     description: "Your email should include:"
     details:
