@@ -12,7 +12,7 @@ meetings:
       - Introduce [Project Three](projects/#project-three)
       - Merge conflicts in Git, generally
       - Pull requests and resolving merge conflicts
-    video:
+    video: https://youtu.be/Lh4NJf2l9nE
 readings:
   - "Steven Krug, <cite>Don’t Make Me Think, Revisited</cite>: Introduction, Chapters&nbsp;1–8"
 tasks:
