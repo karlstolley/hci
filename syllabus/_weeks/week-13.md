@@ -2,10 +2,11 @@
 theme: Usability and Usability Testing
 meetings:
   - agenda:
-      - Usability principles
-      - Usability as engineering practice
+      - "**No class**."
     video:
   - agenda:
+      - Usability principles
+      - Usability as engineering practice
       - Usability testing
     video:
 readings:
