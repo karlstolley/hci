@@ -8,7 +8,7 @@ meetings:
       - Usability principles
       - Usability as engineering practice
       - Usability testing
-    video:
+    video: https://youtu.be/-B7cqwD7NS8
 readings:
   - "Steven Krug, <cite>Don’t Make Me Think, Revisited</cite>: Chapters&nbsp;9–13"
 tasks:
