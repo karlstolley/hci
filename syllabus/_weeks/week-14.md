@@ -2,6 +2,7 @@
 theme: Dark Patterns and Deceptive Design; Mocking Data-Driven UI
 meetings:
   - agenda:
+      - "**Online class.**"
       - Dark patterns in UI design
       - Dark patterns in JavaScript, Web APIs
     video:
