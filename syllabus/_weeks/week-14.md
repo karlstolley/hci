@@ -1,13 +1,16 @@
 ---
-theme: "Evil Week: Dark Patterns"
+theme: Dark Patterns and Deceptive Design; Mocking Data-Driven UI
 meetings:
   - agenda:
       - Dark patterns in UI design
-    video:
-  - agenda:
       - Dark patterns in JavaScript, Web APIs
     video:
+  - agenda:
+      - Data serialization with JSON
+      - Mocking dynamic sites for UI development
+    video:
 readings:
+  - "[Deceptive Design](https://www.deceptive.design/) (browse)"
   - Ax Sharma, [Don’t copy-paste commands from webpages—you can get hacked](https://www.bleepingcomputer.com/news/security/dont-copy-paste-commands-from-webpages-you-can-get-hacked/)
 tasks:
   - Production Problem 05 discussion
