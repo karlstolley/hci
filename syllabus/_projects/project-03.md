@@ -63,8 +63,8 @@ deliverables:
   - action: Complete and email Stolley your usability report.
     description: "Your email should include:"
     details:
-      - The https:// link to your teams’s report repository on GitHub
-      - The https:// link to your own fork of the teams’s report repository on GitHub
+      - The https:// link to your team’s report repository on GitHub
+      - The https:// link to your own fork of the team’s report repository on GitHub
       - The Google Drive link to your team’s test documentation (user videos and consent forms)
       - A 4-5 sentence self-critique memo of your project and your progress in class this semester
       - >
