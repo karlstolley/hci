@@ -1,5 +1,5 @@
 ---
-theme: Dark Patterns and Deceptive Design; Mocking Data-Driven UI
+theme: Dark Patterns and Deceptive Design; UI Topics
 meetings:
   - agenda:
       - "**Online class.**"
@@ -7,8 +7,8 @@ meetings:
       - Dark patterns in JavaScript, Web APIs
     video: https://youtu.be/NHvu4RGXQaY
   - agenda:
-      - Data serialization with JSON
-      - Mocking dynamic sites for UI development
+      - Working with monetary values in HTML and JavaScript
+      - Accessible, responsive, progressively-enhanced slideover interface designs
     video:
 readings:
   - "[Deceptive Design](https://www.deceptive.design/) (browse)"
