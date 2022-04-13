@@ -7,6 +7,7 @@ meetings:
       - Dark patterns in JavaScript, Web APIs
     video: https://youtu.be/NHvu4RGXQaY
   - agenda:
+      - "**Online class.**"
       - >
         [Data attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/data-*)
         refresher
