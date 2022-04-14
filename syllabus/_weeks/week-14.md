@@ -16,7 +16,7 @@ meetings:
         Creating, dispatching, and listening for synthetic
         [events](https://developer.mozilla.org/en-US/docs/Web/API/Event/Event)
       - Accessible, responsive, progressively-enhanced slideover interface designs
-    video:
+    video: https://youtu.be/pii0J3VM2eU
 readings:
   - "[Deceptive Design](https://www.deceptive.design/) (browse)"
   - Ax Sharma, [Don’t copy-paste commands from webpages—you can get hacked](https://www.bleepingcomputer.com/news/security/dont-copy-paste-commands-from-webpages-you-can-get-hacked/)
