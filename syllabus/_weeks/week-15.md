@@ -10,7 +10,7 @@ meetings:
         test topics (see [this repo](https://github.com/hci-2022/09-form-behavior/) and [its
         branches](https://github.com/hci-2022/09-form-behavior/branches))
       - Configuring [Nightwatch to use geckodriver](https://stolley.dev/properly-configuring-nightwatch-to-run-geckodriver/)
-    video:
+    video: https://youtu.be/GDo6HN3wgmE
   - agenda:
       - "**No class.** Stolley available to answer questions on Basecamp."
     video:
